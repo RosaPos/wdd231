@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="WDD 231 course home page for Rosa Posadas. This page includes responsive navigation, course information, and dynamic course cards.">
+
+    <meta name="author" content="Rosa Posadas">
+
+    <title>WDD 231 | Course Home Page | Rosa Posadas</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/canaco-logo.webp" alt="CANACO Madero logo" class="site-logo">
+            <span>Rosa Posadas</span>
+
+            <button id="menuButton" aria-label="Open navigation menu">☰</button>
+        </div>
+
+        <nav id="navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="chamber/index.html">Chamber</a>
+            <a href="final/index.html">Final</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <div class="home-grid">
+            <section class="card about-card">
+                <h2>About Me</h2>
+                <p>
+                    My name is Rosa Posadas. I am studying software development through
+                    BYU-Pathway and BYU-Idaho. I am learning how to build responsive and
+                    dynamic websites using HTML, CSS, and JavaScript. I have experience
+                    teaching English and I am a dedicated educator who deeply believes in
+                    the transformative power of learning. I am passionate about helping
+                    others grow, discover their potential, and develop the confidence to
+                    communicate in a new language. Teaching has allowed me to connect with
+                    students of all ages, understand their unique learning styles, and
+                    design meaningful lessons that inspire curiosity and enjoyment.
+                    I love exploring new cultures, ideas, and perspectives, as they enrich
+                    both my personal and professional life. My classroom is a place where
+                    creativity and innovation come together—where digital tools, engaging
+                    activities, and thoughtful strategies turn learning into an exciting
+                    adventure. Whether I am designing interactive materials, creating
+                    bilingual resources, or guiding students through real-life language
+                    use, I always aim to make every experience memorable and enjoyable.
+                </p>
+            </section>
+
+            <section class="card photo-card">
+                <h2>Student Photo</h2>
+                <img src="images/profile.webp" alt="Rosa Posadas profile photo">
+            </section>
+        </div>
+
+        <section class="card certificate-card">
+            <h2>Web and Computer Programming Certificate</h2>
+
+            <div class="filter-buttons">
+                <button id="allButton">All</button>
+                <button id="cseButton">CSE</button>
+                <button id="wddButton">WDD</button>
+            </div>
+
+            <div id="courseContainer" class="course-container"></div>
+
+            <p id="creditTotal" class="credit-total"></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/" target="_blank">
+                <img src="images/github.svg" alt="GitHub">
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="images/linkedin.svg" alt="LinkedIn">
+            </a>
+
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="images/youtube.svg" alt="YouTube">
+            </a>
+        </div>
+
+        <p>
+            &copy; <span id="currentyear"></span> Rosa Posadas | Mexico
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
