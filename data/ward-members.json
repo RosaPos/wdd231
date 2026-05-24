@@ -1,0 +1,23 @@
+{
+    "familyName": "Meza Posadas",
+    "moveInDate": "2020-02-06",
+    "numberOfPeople": 3,
+    "visitedByBishopric": false,
+    "members": [
+        {
+            "name": "Rosa Posadas",
+            "gender": "Female",
+            "birthdate": "1988-04-04"
+        },
+        {
+            "name": "José Meza",
+            "gender": "Male",
+            "birthdate": "1988-11-29"
+        },
+        {
+            "name": "Joseph Meza",
+            "gender": "Male",
+            "birthdate": "2016-12-03"
+        }
+    ]
+}

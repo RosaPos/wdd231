@@ -189,3 +189,12 @@ footer {
     width: 36px;
     height: 36px;
 }
+
+#menuButton {
+    width: 44px;
+    height: 44px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: var(--white);
+}

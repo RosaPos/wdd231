@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Level Up English Institute",
+      "address": "Ciudad Madero, Tamaulipas",
+      "phone": "+52 833 000 0000",
+      "website": "https://levelupenglishinstitute.com",
+      "image": "level-up.webp",
+      "membership": "Gold",
+      "description": "English classes for children, teens, and adults through interactive lessons, small groups, and personalized support."
+    },
+    {
+      "name": "Playa Miramar Tours",
+      "address": "Playa Miramar, Ciudad Madero, Tamaulipas",
+      "phone": "+52 833 111 1111",
+      "website": "https://playamiramar.example.com",
+      "image": "playa-miramar-tours.webp",
+      "membership": "Silver",
+      "description": "Tourism services and local experiences for visitors near Playa Miramar."
+    },
+    {
+      "name": "Café Madero",
+      "address": "Zona Centro, Ciudad Madero, Tamaulipas",
+      "phone": "+52 833 222 2222",
+      "website": "https://cafemadero.example.com",
+      "image": "cafe-madero.webp",
+      "membership": "Bronze",
+      "description": "Local coffee shop offering drinks, desserts, and a comfortable place for families and visitors."
+    },
+    {
+      "name": "Madero Family Clinic",
+      "address": "Av. Francisco I. Madero, Ciudad Madero, Tamaulipas",
+      "phone": "+52 833 333 3333",
+      "website": "https://maderofamilyclinic.example.com",
+      "image": "madero-family-clinic.webp",
+      "membership": "Silver",
+      "description": "Healthcare services for families and community members in Ciudad Madero."
+    },
+    {
+      "name": "Costa Azul Restaurant",
+      "address": "Boulevard Costero, Ciudad Madero, Tamaulipas",
+      "phone": "+52 833 444 4444",
+      "website": "https://costaazulrestaurant.example.com",
+      "image": "costa-azul-restaurant.webp",
+      "membership": "Gold",
+      "description": "Restaurant near the beach offering seafood, local dishes, and family dining."
+    },
+    {
+      "name": "Madero Tech Solutions",
+      "address": "Ciudad Madero, Tamaulipas",
+      "phone": "+52 833 555 5555",
+      "website": "https://maderotech.example.com",
+      "image": "madero-tech-solutions.webp",
+      "membership": "Bronze",
+      "description": "Technology support, web design, and digital solutions for local businesses."
+    },
+    {
+      "name": "Hotel Brisa del Mar",
+      "address": "Near Playa Miramar, Ciudad Madero, Tamaulipas",
+      "phone": "+52 833 666 6666",
+      "website": "https://hotelbrisadelmar.example.com",
+      "image": "hotel-brisa-del-mar.webp",
+      "membership": "Gold",
+      "description": "Hotel for tourists and families visiting Ciudad Madero and Playa Miramar."
+    }
+  ]
+}

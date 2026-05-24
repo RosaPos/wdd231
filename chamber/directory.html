@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Business directory for CANACO Ciudad Madero with local businesses, services, tourism resources, and community opportunities.">
+
+    <meta name="author" content="Rosa Posadas">
+
+    <title>CANACO Ciudad Madero | Business Directory</title>
+
+    <link rel="icon" href="../favicon.ico">
+
+    <meta property="og:title" content="CANACO Ciudad Madero Business Directory">
+    <meta property="og:description"
+        content="Discover local businesses, services, tourism resources, and community opportunities in Ciudad Madero.">
+    <meta property="og:image" content="https://rosapos.github.io/wdd231/images/canaco-logo.webp">
+    <meta property="og:url" content="https://rosapos.github.io/wdd231/chamber/directory.html">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="../images/canaco-logo.webp" alt="CANACO Ciudad Madero logo" class="site-logo">
+
+            <span>CANACO Ciudad Madero</span>
+
+            <button id="menuButton" aria-label="Open navigation menu">☰</button>
+        </div>
+
+        <nav id="navigation">
+            <a href="../index.html">Home</a>
+            <a class="active" href="directory.html">Directory</a>
+            <a href="#">Join</a>
+            <a href="#">Discover</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Business Directory</h1>
+
+        <p class="directory-intro">
+            Explore local businesses, services, tourism opportunities, and community resources in Ciudad Madero.
+        </p>
+
+        <div class="view-buttons">
+            <button id="gridButton" type="button" aria-label="Display members in grid view">Grid</button>
+            <button id="listButton" type="button" aria-label="Display members in list view">List</button>
+        </div>
+
+        <section id="members" class="grid-view" aria-label="Business directory members"></section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> CANACO Ciudad Madero | Rosa Posadas | Mexico
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

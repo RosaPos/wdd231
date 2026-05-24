@@ -1,0 +1,57 @@
+@media screen and (min-width: 700px) {
+  #menuButton {
+    display: none;
+  }
+
+  .header-content {
+    grid-template-columns: 80px auto;
+    justify-content: center;
+  }
+
+  .site-logo {
+    width: 80px;
+  }
+
+  .header-content span {
+    font-size: 1.6rem;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav a {
+    min-width: 130px;
+  }
+
+  main {
+    padding: 2rem;
+  }
+
+  #members.grid-view {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+
+  #members.list-view .member-card {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1.5fr 1fr;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #members.list-view .member-card p,
+  #members.list-view .member-card h2 {
+    margin: 0;
+  }
+
+  #members.list-view .member-card p:first-of-type {
+    display: none;
+  }
+
+  #members.list-view .member-card a {
+    text-align: center;
+    margin-top: 0;
+  }
+}
