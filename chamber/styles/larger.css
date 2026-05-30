@@ -54,4 +54,72 @@
     text-align: center;
     margin-top: 0;
   }
+
+  /* --- DESKTOP HOME PAGE LAYOUT --- */
+  .home-grid {
+    display: grid;
+    grid-template-columns: 2.2fr 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .hero-container {
+    grid-column: 1 / -1;
+    min-height: 400px;
+    position: relative;
+  }
+
+  .hero-image {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Floating translucent CTA Card on the left */
+  .cta-overlay {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    bottom: 40px;
+    width: 450px;
+    background: rgba(21, 28, 65, 0.88); /* Translucent navy card */
+    border-radius: 12px;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .cta-overlay h2 {
+    font-size: 2.3rem;
+    margin: 0 0 1rem 0;
+    color: var(--accent-color);
+  }
+
+  .cta-overlay p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 0 0 1.5rem 0;
+    max-width: 100%;
+  }
+
+  .home-main {
+    grid-column: 1 / 2;
+  }
+
+  .spotlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .home-sidebar {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 }

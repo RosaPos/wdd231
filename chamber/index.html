@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Official homepage for CANACO Ciudad Madero (Chamber of Commerce). Explore local businesses, weather conditions, events, and membership benefits.">
+    <meta name="author" content="Rosa Posadas">
+
+    <title>CANACO Ciudad Madero | Home</title>
+
+    <link rel="icon" href="../favicon.ico">
+
+    <!-- Open Graph (Facebook / Social Media) Meta Tags -->
+    <meta property="og:title" content="CANACO Ciudad Madero | Home">
+    <meta property="og:description"
+        content="Discover local businesses, services, tourism resources, and community opportunities in Ciudad Madero.">
+    <meta property="og:image" content="https://rosapos.github.io/wdd231/chamber/images/hero-madero.webp">
+    <meta property="og:url" content="https://rosapos.github.io/wdd231/chamber/index.html">
+
+    <!-- Stylesheets (Reusing existing small and larger CSS) -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Custom Script for Home Page (Weather & Spotlights) -->
+    <script src="scripts/home.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <!-- logo points to our local chamber images folder -->
+            <img src="images/canaco-logo.webp" alt="CANACO Ciudad Madero logo" class="site-logo">
+
+            <span>CANACO Ciudad Madero</span>
+
+            <button id="menuButton" aria-label="Open navigation menu">☰</button>
+        </div>
+
+        <nav id="navigation">
+            <!-- Wayfinding: Home is active -->
+            <a class="active" href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="#">Join</a>
+            <a href="#">Discover</a>
+        </nav>
+    </header>
+
+    <main class="home-grid">
+        <!-- 1. Hero Section with overlay Call to Action (CTA) -->
+        <section class="hero-container">
+            <img src="images/hero-madero.webp" alt="Scenic beach of Playa Miramar in Ciudad Madero" class="hero-image"
+                width="1200" height="500">
+            <div class="cta-overlay">
+                <h2>Grow Your Business Today</h2>
+                <p>Connect with Ciudad Madero's premier professional network. Get tools, training, and support.</p>
+                <a href="#" class="cta-btn">Join the Chamber</a>
+            </div>
+        </section>
+
+        <!-- Left Column (Main Content) -->
+        <div class="home-main">
+            <!-- 4. Company Spotlights (Silver and Gold Members) -->
+            <section class="spotlights-card card">
+                <h2>Business Spotlights</h2>
+                <div id="spotlight-container" class="spotlights-grid">
+                    <!-- Spotlights injected dynamically by JS -->
+                </div>
+            </section>
+        </div>
+
+        <!-- Right Column (Sidebar) -->
+        <div class="home-sidebar">
+            <!-- 2. Current Events -->
+            <section class="events-card card">
+                <h2>Upcoming Events</h2>
+                <div class="event-item">
+                    <h3>Business Networking Breakfast</h3>
+                    <p class="event-date">📅 Thursday, June 4 - 8:00 AM</p>
+                    <p>Meet local entrepreneurs and expand your business circle.</p>
+                </div>
+                <div class="event-item">
+                    <h3>Digital Marketing Masterclass</h3>
+                    <p class="event-date">📅 Tuesday, June 16 - 6:00 PM</p>
+                    <p>Learn digital branding for local commerce.</p>
+                </div>
+            </section>
+
+            <!-- 3. Local Weather Section (API Consuming) -->
+            <section class="weather-card card">
+                <h2>Madero Weather</h2>
+                <div class="weather-info">
+                    <div class="weather-today">
+                        <img id="weather-icon" src="" alt="Weather condition icon">
+                        <div>
+                            <span id="current-temp" class="temp-big">--</span>&deg;C
+                            <p id="weather-desc" class="cap-text">Loading...</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider">
+                <h3>3-Day Forecast</h3>
+                <div id="forecast-container" class="forecast-grid">
+                    <!-- Forecast injected by JS -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> CANACO Ciudad Madero | Rosa Posadas | Mexico
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
