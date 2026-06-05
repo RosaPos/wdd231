@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Thank you for applying to CANACO Ciudad Madero. We have received your membership application and will contact you soon.">
+  <meta name="author" content="Rosa Posadas">
+
+  <title>Thank You | CANACO Ciudad Madero</title>
+
+  <link rel="icon" href="../favicon.ico">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/join.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Thank-you page script -->
+  <script src="scripts/thankyou.js" defer></script>
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="header-content">
+      <img src="images/canaco-logo.webp" alt="CANACO Ciudad Madero logo" class="site-logo" width="96" height="96">
+      <span>CANACO Ciudad Madero</span>
+      <button type="button" id="menuButton" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+    </div>
+
+    <nav id="navigation">
+      <a href="index.html">Home</a>
+      <a href="directory.html">Directory</a>
+      <a class="active" href="join.html">Join</a>
+      <a href="#">Discover</a>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+    <div class="thankyou-card">
+      <span class="thankyou-icon" aria-hidden="true">🎉</span>
+      <h1>Application Received!</h1>
+      <p>
+        Thank you for your interest in joining <strong>CANACO Ciudad Madero</strong>.
+        We have received your application and a member of our team will contact you within
+        <strong>3–5 business days</strong>.
+      </p>
+
+      <!-- Dynamic summary table (populated by thankyou.js) -->
+      <table class="summary-table" aria-label="Your application summary">
+        <thead>
+          <tr>
+            <th colspan="2">Your Application Summary</th>
+          </tr>
+        </thead>
+        <tbody id="summaryBody">
+          <!-- Rows injected by JS -->
+        </tbody>
+      </table>
+
+      <p>If you have any questions, please contact us at
+        <a href="mailto:info@canaco-madero.mx">info@canaco-madero.mx</a>.
+      </p>
+
+      <a href="join.html" class="btn-back">← Back to Membership Page</a>
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© <span id="currentyear"></span> CANACO Ciudad Madero | Rosa Posadas | Mexico</p>
+    <p id="lastModified"></p>
+  </footer>
+
+</body>
+
+</html>

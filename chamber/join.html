@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Join CANACO Ciudad Madero. Choose a membership level and submit your application to become part of our thriving business community.">
+  <meta name="author" content="Rosa Posadas">
+
+  <title>Join | CANACO Ciudad Madero</title>
+
+  <link rel="icon" href="../favicon.ico">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Join CANACO Ciudad Madero">
+  <meta property="og:description"
+    content="Become a member of CANACO Ciudad Madero and grow your business with our professional network.">
+  <meta property="og:image" content="https://rosapos.github.io/wdd231/chamber/images/hero-madero.webp">
+  <meta property="og:url" content="https://rosapos.github.io/wdd231/chamber/join.html">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/join.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Join page script -->
+  <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="header-content">
+      <img src="images/canaco-logo.webp" alt="CANACO Ciudad Madero logo" class="site-logo" width="96" height="96">
+      <span>CANACO Ciudad Madero</span>
+      <button type="button" id="menuButton" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+    </div>
+
+    <nav id="navigation">
+      <a href="index.html">Home</a>
+      <a href="directory.html">Directory</a>
+      <a class="active" href="join.html">Join</a>
+      <a href="#">Discover</a>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+    <div class="join-grid">
+
+      <!-- Page heading -->
+      <div>
+        <h1>Become a Member</h1>
+        <p class="join-subtitle">
+          Join the CANACO Ciudad Madero network and connect with hundreds of local businesses.
+        </p>
+      </div>
+
+      <!-- ── Application Form ── -->
+      <section class="join-form-card" aria-labelledby="form-heading">
+        <h2 id="form-heading">Membership Application</h2>
+
+        <form id="joinForm" action="thankyou.html" method="get">
+
+          <!-- First Name -->
+          <div class="form-group">
+            <label for="firstName">
+              <span class="field-label required">First Name</span>
+              <input type="text" id="firstName" name="firstName" title="Enter your first name" placeholder="e.g. Juan"
+                autocomplete="given-name" pattern="[A-Za-zÀ-ÿ\s'\-]{2,}" required>
+            </label>
+            <p class="form-hint">Only letters, spaces, hyphens, or apostrophes; minimum 2 characters.</p>
+          </div>
+
+          <!-- Last Name -->
+          <div class="form-group">
+            <label for="lastName">
+              <span class="field-label required">Last Name</span>
+              <input type="text" id="lastName" name="lastName" title="Enter your last name" placeholder="e.g. Hernández"
+                autocomplete="family-name" pattern="[A-Za-zÀ-ÿ\s'\-]{2,}" required>
+            </label>
+          </div>
+
+          <!-- Organizational Title -->
+          <div class="form-group">
+            <label for="orgTitle">
+              <span class="field-label required">Organizational Title</span>
+              <input type="text" id="orgTitle" name="orgTitle" title="Enter at least 7 letters, spaces, or hyphens only"
+                placeholder="e.g. General Manager" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}"
+                required>
+            </label>
+            <p class="form-hint">Minimum 7 characters; letters, spaces, and hyphens only.</p>
+          </div>
+
+          <!-- Email -->
+          <div class="form-group">
+            <label for="email">
+              <span class="field-label required">Email Address</span>
+              <input type="email" id="email" name="email" title="Enter your email address" placeholder="you@example.com"
+                autocomplete="email" required>
+            </label>
+          </div>
+
+          <!-- Phone -->
+          <div class="form-group">
+            <label for="phone">
+              <span class="field-label required">Mobile / Business Phone</span>
+              <input type="tel" id="phone" name="phone" title="Enter your mobile phone number"
+                placeholder="+52 833 000 0000" autocomplete="tel" required>
+            </label>
+          </div>
+
+          <!-- Business Name -->
+          <div class="form-group">
+            <label for="businessName">
+              <span class="field-label required">Business / Organization Name</span>
+              <input type="text" id="businessName" name="businessName" title="Enter your business or organization name"
+                placeholder="e.g. English Institute" autocomplete="organization" required>
+            </label>
+          </div>
+
+          <!-- Membership Level -->
+          <div class="form-group">
+            <label for="membershipLevel">
+              <span class="field-label required">Membership Level</span>
+              <select id="membershipLevel" name="membershipLevel" title="Select a membership level" autocomplete="off"
+                required>
+                <option value="" disabled selected>-- Select a level --</option>
+                <option value="np">Non-Profit (Free)</option>
+                <option value="bronze">Bronze – $200/yr</option>
+                <option value="silver">Silver – $500/yr</option>
+                <option value="gold">Gold – $1,200/yr</option>
+              </select>
+            </label>
+          </div>
+
+          <!-- Description -->
+          <div class="form-group">
+            <label for="description">
+              <span class="field-label">Business Description</span>
+              <textarea id="description" name="description" title="Describe your business, products, or services"
+                autocomplete="off" placeholder="Briefly describe your business, products, or services..."></textarea>
+            </label>
+          </div>
+
+          <!-- Hidden Timestamp -->
+          <input type="hidden" id="timestamp" name="timestamp">
+
+          <!-- Submit -->
+          <button type="submit" class="btn-submit" id="submitBtn">
+            Submit Application →
+          </button>
+
+        </form>
+      </section>
+
+      <!-- ── Membership Levels ── -->
+      <section class="membership-levels card" aria-labelledby="levels-heading">
+        <h2 id="levels-heading">Membership Levels</h2>
+        <div class="level-cards">
+
+          <!-- NP / Non-Profit -->
+          <div class="level-card np">
+            <h3>🤝 Non-Profit</h3>
+            <p class="level-price">$0<span>/year</span></p>
+            <p>Free membership for non-profit organizations. Basic directory listing included.</p>
+            <button type="button" class="level-info-btn" data-dialog="np-dialog" aria-haspopup="dialog">
+              Learn more</button>
+          </div>
+
+          <!-- Bronze -->
+          <div class="level-card bronze">
+            <h3>🥉 Bronze</h3>
+            <p class="level-price">$200<span>/year</span></p>
+            <p>Ideal for small businesses. Directory listing, newsletter, and event access.</p>
+            <button type="button" class="level-info-btn" data-dialog="bronze-dialog" aria-haspopup="dialog">
+              Learn more </button>
+          </div>
+
+          <!-- Silver -->
+          <div class="level-card silver">
+            <h3>🥈 Silver</h3>
+            <p class="level-price">$500<span>/year</span></p>
+            <p>Enhanced visibility with spotlight features and priority event invitations.</p>
+            <button type="button" class="level-info-btn" data-dialog="silver-dialog" aria-haspopup="dialog">
+              Learn more </button>
+          </div>
+
+          <!-- Gold -->
+          <div class="level-card gold">
+            <h3>🥇 Gold</h3>
+            <p class="level-price">$1,200<span>/year</span></p>
+            <p>Maximum exposure: homepage spotlight, social media promotion, and VIP events.</p>
+            <button type="button" class="level-info-btn" data-dialog="gold-dialog" aria-haspopup="dialog">
+              Learn more </button>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /.join-grid -->
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© <span id="currentyear"></span> CANACO Ciudad Madero | Rosa Posadas | Mexico</p>
+    <p id="lastModified"></p>
+  </footer>
+
+  <!-- ===== MEMBERSHIP BENEFIT DIALOGS ===== -->
+
+  <!-- Non-Profit Membership Dialog -->
+  <dialog id="np-dialog" class="membership-dialog" aria-labelledby="np-dialog-title">
+    <div class="dialog-content">
+      <h3 id="np-dialog-title">Non-Profit Membership Benefits</h3>
+      <p>Designed for nonprofit organizations serving the Ciudad Madero community.</p>
+      <ul>
+        <li>No annual membership fee</li>
+        <li>Basic directory listing</li>
+        <li>Access to community announcements</li>
+        <li>Invitation to selected local events</li>
+      </ul>
+      <button type="button" class="close-dialog" data-close="np-dialog">Close</button>
+    </div>
+  </dialog>
+
+  <!-- Bronze Membership Dialog -->
+  <dialog id="bronze-dialog" class="membership-dialog" aria-labelledby="bronze-dialog-title">
+    <div class="dialog-content">
+      <h3 id="bronze-dialog-title">Bronze Membership Benefits</h3>
+      <p>A practical option for small businesses beginning to grow their local presence.</p>
+      <ul>
+        <li>Business directory listing</li>
+        <li>CANACO newsletter access</li>
+        <li>Invitations to local networking events</li>
+        <li>Community business visibility</li>
+      </ul>
+      <button type="button" class="close-dialog" data-close="bronze-dialog">Close</button>
+    </div>
+  </dialog>
+
+  <!-- Silver Membership Dialog -->
+  <dialog id="silver-dialog" class="membership-dialog" aria-labelledby="silver-dialog-title">
+    <div class="dialog-content">
+      <h3 id="silver-dialog-title">Silver Membership Benefits</h3>
+      <p>Enhanced promotion for businesses seeking greater visibility in the community.</p>
+      <ul>
+        <li>All Bronze benefits</li>
+        <li>Featured directory placement</li>
+        <li>Priority event invitations</li>
+        <li>Promotion in selected CANACO communications</li>
+      </ul>
+      <button type="button" class="close-dialog" data-close="silver-dialog">Close</button>
+    </div>
+  </dialog>
+
+  <!-- Gold Membership Dialog -->
+  <dialog id="gold-dialog" class="membership-dialog" aria-labelledby="gold-dialog-title">
+    <div class="dialog-content">
+      <h3 id="gold-dialog-title">Gold Membership Benefits</h3>
+      <p>Maximum exposure for established businesses and tourism-focused services.</p>
+      <ul>
+        <li>All Silver benefits</li>
+        <li>Homepage business spotlight opportunities</li>
+        <li>Social media promotion opportunities</li>
+        <li>VIP access to selected networking events</li>
+      </ul>
+      <button type="button" class="close-dialog" data-close="gold-dialog">Close</button>
+    </div>
+  </dialog>
+
+</body>
+
+</html>
