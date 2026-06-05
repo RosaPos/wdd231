@@ -82,7 +82,8 @@
     left: 40px;
     bottom: 40px;
     width: 450px;
-    background: rgba(21, 28, 65, 0.88); /* Translucent navy card */
+    background: rgba(21, 28, 65, 0.88);
+    /* Translucent navy card */
     border-radius: 12px;
     padding: 2.5rem;
     display: flex;
