@@ -386,3 +386,26 @@ footer p {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* ---------- WAVE contrast fixes ---------- */
+
+.dark-purple strong,
+.main-purple strong,
+.navy strong {
+  color: var(--white);
+}
+
+.dark-purple h3,
+.dark-purple p,
+.main-purple h3,
+.main-purple p,
+.navy h3,
+.navy p {
+  color: var(--white);
+}
+
+.neon-magenta strong,
+.level-gold strong,
+.soft-bg strong {
+  color: var(--deep-purple);
+}
