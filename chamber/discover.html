@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Discover Ciudad Madero, Playa Miramar, and the Tampico-Madero-Altamira region. Explore local attractions, landmarks, and area history.">
+  <meta name="author" content="Rosa Posadas">
+
+  <title>Discover | CANACO Ciudad Madero</title>
+
+  <link rel="icon" href="../favicon.ico">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Discover script (using ES Module) -->
+  <script type="module" src="scripts/discover.mjs"></script>
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="header-content">
+      <img src="images/canaco-logo.webp" alt="CANACO Ciudad Madero logo" class="site-logo" width="96" height="96">
+      <span>CANACO Ciudad Madero</span>
+      <button type="button" id="menuButton" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+    </div>
+
+    <nav id="navigation">
+      <a href="index.html">Home</a>
+      <a href="directory.html">Directory</a>
+      <a href="join.html">Join</a>
+      <a class="active" href="discover.html">Discover</a>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main class="discover-layout">
+    <!-- Barra lateral para mensajes y datos del área -->
+    <aside class="sidebar">
+      <div class="card message-card">
+        <h2>Visitor Info</h2>
+        <p id="visitor-message">Loading visitor information...</p>
+      </div>
+      
+      <div class="card stats-card">
+        <h2>Area Demographics</h2>
+        <p><strong>Region:</strong> Tampico-Madero-Altamira</p>
+        <p><strong>Main Attraction:</strong> Playa Miramar</p>
+        <p><strong>Key Industries:</strong> Petroleum Refineries, Tourism, Ports</p>
+      </div>
+    </aside>
+
+    <!-- Contenedor donde JavaScript colocará las 8 tarjetas -->
+    <section id="places-container">
+      <!-- Las tarjetas se generarán automáticamente aquí -->
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© <span id="currentyear"></span> CANACO Ciudad Madero | Rosa Posadas | Mexico</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+
+</html>

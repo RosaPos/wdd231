@@ -11,10 +11,12 @@
 
   <title>Level Up English Institute Site Plan</title>
 
+  <link rel="icon" href="favicon.ico">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap"
     rel="stylesheet">
 
   <link rel="stylesheet" href="styles/site-plan.css">
@@ -22,37 +24,45 @@
 
 <body>
   <header>
-    <h1>Level Up English Institute Site Plan</h1>
-    <p>Individual Website Project — WDD 231</p>
+    <div class="hero-card">
+      <img src="images/level-up-logo.webp" alt="Level Up English Institute logo" class="logo-badge" width="96"
+        height="96">
+      <p class="eyebrow">WDD 231 Individual Website Project</p>
+      <h1>Level Up English Institute Site Plan</h1>
+      <p class="hero-text">
+        A playful, modern, and clear website plan for an online English institute that helps students improve their
+        English with confidence.
+      </p>
+    </div>
   </header>
 
   <main>
-    <section>
+    <section class="plan-section">
       <h2>Site Name</h2>
       <p><strong>Level Up English Institute</strong></p>
       <p>
-        This name was selected because it clearly represents an English education business focused on helping
-        students improve their English level through online classes, structured lessons, and personalized support.
-        The phrase “Level Up” communicates progress, growth, and confidence in learning.
+        This name was selected because it clearly represents an English education business focused on helping students
+        improve their English level through online classes, structured lessons, and personalized support. The phrase
+        “Level Up” communicates progress, growth, confidence, and achievement.
       </p>
       <p><strong>Optional domain:</strong> levelupenglishinstitute.com</p>
     </section>
 
-    <section>
+    <section class="plan-section">
       <h2>Site Purpose</h2>
       <p>
         The purpose of this website is to provide an organized and welcoming online presence for Level Up English
         Institute. The site will explain the institute’s teaching approach, present English programs for children,
-        teenagers, and adults, share the benefits of online English classes, and provide a contact or enrollment
-        form for interested students and families.
+        teenagers, and adults, share the benefits of online English classes, and provide a contact or enrollment form
+        for interested students and families.
       </p>
       <p>
-        The website will also support future dynamic features such as program cards generated from a data file,
-        student benefits, class information, and interactive enrollment options.
+        The website will also support future dynamic features such as program cards generated from a data file, student
+        benefits, class information, and interactive enrollment options.
       </p>
     </section>
 
-    <section>
+    <section class="plan-section">
       <h2>Scenarios</h2>
       <ul>
         <li>What English classes are available for children, teenagers, or adults?</li>
@@ -62,69 +72,92 @@
       </ul>
     </section>
 
-    <section>
+    <section class="plan-section">
       <h2>Color Scheme</h2>
       <p>
-        The color scheme uses professional education colors that communicate trust, growth, clarity, and energy.
+        The color scheme uses a playful purple theme inspired by the Level Up logo and a gaming-style landing page,
+        while keeping the clean and simple structure of an educational site.
       </p>
 
       <div class="color-grid">
+        <article class="color-card dark-purple">
+          <h3>Deep Purple</h3>
+          <p><strong>#21002F</strong></p>
+          <p>Used for header backgrounds, footer, strong contrast areas, and hero sections.</p>
+        </article>
+
+        <article class="color-card main-purple">
+          <h3>Main Purple</h3>
+          <p><strong>#7B2CBF</strong></p>
+          <p>Used for headings, cards, icons, and visual identity elements.</p>
+        </article>
+
+        <article class="color-card neon-magenta">
+          <h3>Neon Magenta</h3>
+          <p><strong>#D72DF2</strong></p>
+          <p>Used for highlights, decorative shapes, hover effects, and playful accents.</p>
+        </article>
+
+        <article class="color-card level-gold">
+          <h3>Level Up Gold</h3>
+          <p><strong>#FFD60A</strong></p>
+          <p>Used for call-to-action buttons, important labels, and brand emphasis.</p>
+        </article>
+
         <article class="color-card navy">
           <h3>Navy Blue</h3>
-          <p><strong>#13294B</strong></p>
-          <p>Used for headings, footer, navigation, and strong brand elements.</p>
+          <p><strong>#08245C</strong></p>
+          <p>Used for readable text, logo-inspired details, and secondary headings.</p>
         </article>
 
-        <article class="color-card blue">
-          <h3>Bright Blue</h3>
-          <p><strong>#2F80ED</strong></p>
-          <p>Used for buttons, links, highlights, and calls to action.</p>
-        </article>
-
-        <article class="color-card gold">
-          <h3>Gold Accent</h3>
-          <p><strong>#F9C74F</strong></p>
-          <p>Used for accents, small highlights, and visual emphasis.</p>
-        </article>
-
-        <article class="color-card light">
-          <h3>Light Background</h3>
-          <p><strong>#F5F8FF</strong></p>
+        <article class="color-card soft-bg">
+          <h3>Soft Lilac Background</h3>
+          <p><strong>#F8F0FF</strong></p>
           <p>Used for page backgrounds and soft content sections.</p>
         </article>
       </div>
     </section>
 
-    <section>
+    <section class="plan-section">
       <h2>Typography</h2>
 
       <article class="type-example">
-        <h3>Montserrat</h3>
+        <h3>Fredoka</h3>
         <p>
-          Montserrat will be used for headings, navigation labels, buttons, and important section titles because it
-          is clear, modern, and professional.
+          Fredoka will be used for headings, navigation labels, hero titles, and buttons. It feels friendly,
+          modern, and suitable for a playful learning brand.
         </p>
       </article>
 
       <article class="type-example body-font">
-        <h3>Lato</h3>
+        <h3>Nunito</h3>
         <p>
-          Lato will be used for body text, descriptions, program details, and form text because it is readable and
-          friendly for online learning content.
+          Nunito will be used for body text, descriptions, program details, scenarios, and form text because it is
+          rounded, readable, and comfortable for educational content.
         </p>
       </article>
     </section>
 
-    <section>
+    <section class="plan-section">
       <h2>Planned Website Pages</h2>
       <ul>
-        <li><strong>Home:</strong> introduction, main benefits, call to action, and featured programs.</li>
-        <li><strong>Programs:</strong> dynamic program cards for children, teenagers, adults, and conversation classes.</li>
+        <li><strong>Home:</strong> welcome message, benefits, call to action, and featured programs.</li>
+        <li><strong>Programs:</strong> dynamic program cards for children, teenagers, adults, and conversation classes.
+        </li>
         <li><strong>Enroll:</strong> contact form, enrollment information, and student inquiry details.</li>
       </ul>
     </section>
 
-    <section>
+    <section class="plan-section">
+      <h2>Design Direction</h2>
+      <p>
+        The final website will combine a playful purple visual identity with a simple educational layout. The design
+        will use large headings, rounded cards, friendly illustrations or icons, clear calls to action, and smooth
+        movement effects that support learning without distracting the user.
+      </p>
+    </section>
+
+    <section class="plan-section">
       <h2>Wireframes</h2>
       <p>
         These wireframes show the planned layout for the home page in mobile and larger viewport views.
@@ -135,11 +168,11 @@
           <h3>Mobile View</h3>
           <div class="wireframe mobile-wireframe" aria-label="Mobile home page wireframe">
             <div class="box small">Logo + Menu</div>
-            <div class="box hero">Hero / Welcome Message</div>
-            <div class="box">Call to Action Button</div>
-            <div class="box">Featured Program Card</div>
-            <div class="box">Featured Program Card</div>
-            <div class="box">Student Benefits</div>
+            <div class="box hero">Hero Message + Mascot</div>
+            <div class="box cta">Start Learning Button</div>
+            <div class="box">Program Card</div>
+            <div class="box">Program Card</div>
+            <div class="box">Benefits Section</div>
             <div class="box">Contact Preview</div>
             <div class="box small">Footer</div>
           </div>
@@ -149,10 +182,10 @@
           <h3>Desktop / Tablet View</h3>
           <div class="wireframe desktop-wireframe" aria-label="Desktop home page wireframe">
             <div class="box nav">Logo + Navigation</div>
-            <div class="box hero">Hero Section + CTA</div>
-            <div class="box card-one">Program Card</div>
-            <div class="box card-two">Program Card</div>
-            <div class="box card-three">Program Card</div>
+            <div class="box hero">Hero Section + CTA + Illustration</div>
+            <div class="box card-one">Kids Program</div>
+            <div class="box card-two">Teens Program</div>
+            <div class="box card-three">Adults Program</div>
             <div class="box benefits">Benefits / Teaching Approach</div>
             <div class="box contact">Contact / Enrollment CTA</div>
             <div class="box footer">Footer</div>

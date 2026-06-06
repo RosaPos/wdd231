@@ -3216,3 +3216,1576 @@ Use this ☑️ audit tool to check some your page against the standards and som
 Share your URL to your group's channel and review your group member's submissions.
 Return to Canvas and submit your GitHub Pages enabled URL.
 https://username.github.io/wdd231/chamber/join.html
+
+
+### Week 05
+
+## W05 Project: Site Plan
+
+# Project Site Plan
+Individual Project Site Plan
+Overview
+Site and application planning is a critical step in successful design and development of web projects. The website plan provides a blueprint from which to design and develop your individual website project. The purpose of this assignment is for you to organize your plans for your proposed project.
+
+The site plan is a living document that will change as the project progresses. It is a document that will be used to communicate with the client and the development team, which in this case is just you.
+
+Instructions
+The assignment is to build a basic website plan HTML document. The required content is outlined below.
+
+Remember that this is just a plan and you may adjust some items as you complete your project in the next week.
+
+Setup
+Refer to the project description, which provides overall site specifications.
+((Individual Website Project Description
+Overview
+This NEW individual website project is a comprehensive assessment of each student's proficiency in achieving the course learning outcomes. Students are tasked with creating a three page website using a contemporary approach with HTML, CSS, and JavaScript. The goal is to develop a dynamic and responsive website that integrates data sources, while adhering to accessibility, usability, and development standards.
+
+"The desire to create is one of the deepest yearnings of the human soul. No matter our talents, education, or backgrounds, you each have an inherent wish to create something that did not exist before. Everyone can create. You don't need money, position, or influence in order to create something of substance or beauty. Creation brings satisfaction and fulfillment. We develop ourselves and others when you take unorganized matter into our hands and mold it into something of beauty."
+Happiness, Your Heritage – Dieter F. Uchtdorf
+
+Project Requirements
+This project will be of your own subject, design, and development. You may not expand upon nor submit the chamber of commerce, learning project. You may not consult nor work with any other individual. The content and subject is driven from your own proposed topic and the site should be complete without any placeholders.
+
+This is a web course intended to help you learn how to construct dynamic and responsive websites using the core web technologies of contemporary HTML, CSS, and JavaScript. Third party templates, frameworks, and libraries are NOT allowed, like TailwindCSS, Bootstrap, Foundation, etc. Pages built from site builder software or drag-and-drop tools or that are based on existing sites are not allowed and will lead to no credit on the term project.
+
+Location and Hosting
+Your project must be stored in its own subfolder within your GitHub wdd231 repository. Something like "final" or "finalproject"
+Update the "Final" link in the nav bar on your week 1 page to point to your week 6 final project.
+File and Folder Naming
+All files and folders adhere to the course naming conventions.
+— lowercase, no spaces, standard, meaningful (semantic), etc.
+HTML Standards
+Structure the pages with valid, semantic HTML markup. This includes the proper use of header, nav, main, and footer elements.
+Each page should meet the baseline development standards.
+CSS Standards
+Use valid CSS that does not contain unused and unnecessarily duplicated declarations and rules.
+Design Principles and Layout
+Design Principles: The design, in all views, must demonstrate a consistent look and feel and adhere to web design principles of proximity, alignment, repetition, contrast, and appropriate white-space.
+Responsive Navigation: Small screen links expand when a hamburger icon is clicked and larger screens display links horizontally.
+Wayfinding: Use wayfinding with the site's main navigation links.
+Responsive Layout: The layout of each page must be responsive to mobile (320px) (portrait and landscape) and larger screen views with no horizontal scrolling.
+Page Weight: Make sure each page size is below the 500kB of total data transfer from an empty cache.
+Accessibility: The layout and design must support accessibility.
+Usability: The site must be usable and supports a positive user experience.
+Content
+Page Requirement: Three (3) total pages are required. This includes the landing (home) page named "index.html".
+Purpose: The content must be cohesive and must be relevant to the purpose of the site as outlined in your website plan.
+Branding with Favicon: Integrate a favicon on each page that is consistent with the site's branding, logo, or overall design.
+Semantic HTML Titles: Use distinct and descriptive title tags to accurately reflect each page's content.
+SEO-Friendly Descriptions: Implement unique meta name="description" tags that are concise and relevant to each page, optimizing them for search engines.
+Author Attribution: Include a meta name="author" tag on each page.
+Social Sharing Optimization: Implement necessary social media metadata, such as Open Graph tags, to control how content is displayed when shared on social platforms.
+Images
+All images must be optimized for the web and use intrinsic aspect ratios.
+Use a lazy loading technique to support progressive design and to increase page performance.
+HTML Form
+Use an HTML form that meets the standards presented in the course.
+Display the form data on a form action page.
+(This form action page does not count toward your site 3 page requirement.)
+JavaScript Functionality and Components
+Your website must incorporate dynamic features and content using JavaScript.
+
+The following functionality and components are required:
+
+Data Fetching: Retrieve data from an external source or a local JSON file.
+Use the Fetch API to make asynchronous requests (demonstrated in the video).
+Incorporate `try...catch` blocks for robust error handling of asynchronous operations (demonstrated in the video).
+Handle the response appropriately (e.g., parsing JSON).
+Dynamic Content Generation:
+Dynamically generate and display at least fifteen (15) items from your data source.
+For each item, display at least four (4) distinct data properties/values.
+Local Storage: Implement local storage to persist data client-side (e.g., user preferences, application state).
+Modal Dialogs:
+Implement at least one modal dialog structure for user interaction (e.g., displaying detailed information, confirming actions).
+Ensure the modal is accessible and follows best practices for user experience.
+DOM Manipulation and Event Handling: Implement JavaScript to interact with the Document Object Model (DOM). This should include:
+Selecting elements using appropriate methods (e.g., `querySelector`, `querySelectorAll`).
+Modifying element properties, style, and/or content.
+Attaching event listeners to elements and responding appropriately to events (e.g., `click`, `submit`, `change`).
+Array Methods: Utilize at least one appropriate array method (e.g., `map`, `filter`, `reduce`, `forEach`) to process data efficiently.
+Template Literals: Employ template literals for string construction, especially when dealing with dynamic content or multi-line strings.
+ES Modules: Structure your JavaScript code using ES Modules to demonstrate proper code organization and modularity.
+There are many public and free APIs that you can use for your project.
+Check the Web Frontend Development Resources page for some examples.
+
+Professionalism
+Proofread Carefully: Fix all spelling and grammar mistakes.
+Acknowledge Sources: If you used external content, add an "Attributions" link to your footer.
+The images and verbiage may be referenced from other sources which will need to be cited in a resource attributions page, which must be linked from the footer of the landing (home) page. This attributions page does not need to be styled.
+
+Video Demonstration and Reflection
+Create a focused, brief video that captures your screen as you demonstrate how you met certain JavaScript requirements. You do not need to talk about anything else except to demonstrate where and how you met the following requirements.
+
+Video Specifications Requirements
+What to Capture: Use your camera showing your face as you record your screen.
+Length: Record a 3-5 minute video. Focus on the required demonstrations and nothing else.
+Location: Upload your completed video to Youtube, Loom, or an equivalent service. Make sure the video is public so that the graders can view it.
+Recording Tools: Use the video capture and editing tool of your choice.
+Some video recording tools that include free options are:
+ClipChamp
+Screencastify
+Loom
+OBS Studio
+QuickTime Player (macOS)
+Link your video in the footer of each page of your site so it can be easily found by the grading team.
+Video Content Requirements
+How you used your API/Data integration and demonstrate the output.
+How you used an asynchronous functionality with a try block.
+Testing
+Use this page audit tool. Note that a complete URL is required. The audit will be used by the graders in your assessment.
+Test your site in multiple browsers and devices.
+Use the browser's DevTools to check for JavaScript runtime errors.
+Use DevTools CSS Overview to check your color contrast.
+Generate the DevTools Lighthouse report and run diagnostics for accessibility, best practices, and SEO (Search Engine Optimization) in both the mobile and desktop views.
+Be sure that your site can be opened by the graders.
+Make sure your video is available to the graders.
+Submission
+Return to Canvas and submit:
+
+Your project's GitHub Pages (github.io) enabled URL
+Insure that there is a link to the video in the site footer!))
+
+
+Create a single HTML document.
+Content
+Include the following content and use appropriate HTML elements to outline these sections with descriptions in the site plan document:
+
+Site Name: The site or domain name is the primary identifier and is critical for branding, visibility, and recognition, often coupled with a logo or logo version. A representative domain that is available to purchase would be normally important but not required in this class. Provide a valid site name that is relevant to your project and a short reason why the site name was selected.
+Example: Bay Area eBiking Club
+• This name represents a club that is focused on electric biking in the San Francisco Bay Area.
+Optional domain availability: bay-ebike.org
+
+Site Purpose: The site purpose should attempt to provide scope to the website content in describing what services and information will be provided.
+Example: for the Bay Area eBiking Club
+• The site provides a hub for regional e-biking by listing providing trail and e-bike recommendation information along with a membership information form.
+
+Scenarios: Scenarios are questions that are asked by a site visitor who represents the target audience of the organization or company. The questions will help you drive the content of the website as it provides answers to the questions. Again, much of the content specifications will actually be provided but start thinking about the target audience of the site. Include at least two scenarios.
+Example: for the Bay Area eBiking Club
+• What is the best e-bike to get for mountainous areas?
+• Where can I find contact information for the club's directors?
+
+Color Scheme: The color scheme refers to the carefully selected site colors. Define at least two colors and show where each color selected will be used, such as headings, paragraphs, background colors, accents, and so on.
+! Use your selected color scheme on this HTML document exclusively.
+How to Choose Good Website Color Schemes – websitebuilderexpert.com
+
+((How To Choose An Eye-Catching Website Color Palette
+We may receive a commission from our partners if you click on a link and purchase a product or service on their website. Learn more
+
+jac
+Written by
+Jacqueline Renouard
+Updated on
+ May 11, 2023
+Sign up to our weekly newsletter
+Smartphone sits on an open laptop, with the Website Builder Expert newlsetter open on both screens
+Your expert advice is here!
+
+Grow your website with help from our FREE, weekly newsletter – sign up today!
+
+SUBSCRIBE
+icon comments svg Comments: 167
+
+On this page
+Why Colors are Important
+How to Choose a Color Scheme
+Choose Your Additional Colors
+Choose a Background Color
+Choose a Typeface Color
+Color Palette Tools
+Website Color Tips
+Summary
+Visuals do matter with website design, whether you’re building your site from scratch, or are rethinking the palette of your website, this guide will help you choose a color for your website.
+
+After all, color is a massive aspect of branding. Ever noticed that almost every fast food restaurant uses red and yellow in their logos? That’s because together, these encourage hunger and friendliness. But picking a color palette for your website means understanding one thing:
+
+What do you want your brand to say?
+
+Get More Expert Advice and Industry News Sent To Your Inbox
+
+Stay informed with extra tips and insights on industry trends delivered to you in our weekly newsletter.
+
+Name
+Email Address
+By signing up to receive our newsletter, you agree to our Privacy Policy. You can unsubscribe at any time.
+
+Why Website Colors are Important
+Colors are integral to web design and can trigger certain feelings on sight. There is a lot behind color psychology – you might be surprised to hear that 85% of people claimed that color has a major influence on what they buy.
+
+When some companies experimented with their button colors, they noticed a sharp uptick or decline in their conversions. For example, Beamax, a company who makes projection screens, noticed a gargantuan 53.1% increase in clicks on links that were red vs links that were blue.
+
+And that’s not just clicks – a study run on the mental impact of colors found that colors boosted brand recognition by an average of 80%. For example, think of Coca-Cola, and you’ll likely picture their vibrant red cans.
+
+Don’t take this to mean that red is king! If your site is mainly red, a red call to action won’t stand out. So you’ll want to create a cohesive color palette and find a combination that works for your brand. With that being said, it is important to understand the concept behind asymmetrical balance, and how to contrast pieces of your site.
+
+Graphic of statistics with little images of people next to them
+Sources: Truelist, Business Insider, Reboot Online
+How to Choose a Color Palette for Your Website
+So how do you find one that works for you? You first need to get a good understanding of what you’re selling/providing. If you’re trying to achieve a more premium, high-end image, then black represents elegance, as people associate it with high quality, and intrigue.
+
+However it really depends on what you’re selling or marketing, black may be elegant but might not express the fun and joy of orange. If you’re a tech company you might want blues in your palette as they represent security – just think about some of the big bank or tech companies like Facebook. Website colors really do say a lot about what you have to offer, so let’s take a look at each color more in-depth:
+
+Graphic of different colors and logos for businesses with that color
+Colors highlight what a brand represents to consumers.
+It’s an idea to think of your consumers and how your logo and marketing will affect them. Colors have environmental, psychological, and sociological representation. Whether for example, that’s nature’s emerald greens or societies money connotations. These will have subtle influences on those that visit your website or browse your social media.
+
+Learn more about Website Color Theory and how to apply it yourself, in our separate guide to help you understand the principals behind your color palette.
+
+Choose a Primary Color: Understanding What Colors Represent
+The best way to decide on one or two main primary colors is to think about the vibe of your product or service, and discover colors that fit your brand vibe to find one you like. Here’s a look at what colors represent and how they might fit your business:
+
+Red
+Think brands like Coca-Cola or Nintendo.
+Emotionally represents urgency, lust, excitement, energy, and love.
+Digitally creates a sense of urgency, or draws attention to areas of a website.
+Branding works with energy drinks, food, sports, marketing, and emergency services.
+Yellow
+Denny’s or McDonalds.
+It psychologically represents happiness, the sun, laughter, optimism, creativity, playfulness.
+Digitally yellow can create a sense of energized happiness if a bright yellow is chosen, otherwise softer yellows have a more calming sense.
+Branding color works with “junk food”, creative portfolios, game companies, cartoon networks, kid’s products, and Swedish furniture companies (IKEA).
+Green
+Whole Foods or Animal Planet.
+Green gives the psychological impression of freshness, nature, money, relaxation and sustainability.
+For websites and branding green offers a sense of new beginnings, wealth, and trustworthiness.
+It does particularly well for travel websites, tourism, medicine, organic produce, environment sites, and even store builders like Shopify.
+Orange
+Businesses like Nickelodeon or Fanta.
+Orange is the color of psychological warmth, ambition, and infectious enthusiasm.
+Websites and branding that incorporate orange tend to display entertainment media or share a warmth or excitement about the products they sell.
+Orange excels in the soft drinks area, but also does well for cartoon networks, chocolates, phone networks, and the likes of FireFox web browser and Amazon delivery.
+Blue
+Walmart or American Express.
+Blue implies psychological dependability, wisdom, loyalty, and reassurance.
+What that translates to in the digital sphere is a website that is good in security and inspires trust.
+The sites and brands that tend to use them are information sites (like us!), high-tech, banks, social media brands, and even toothpaste.
+Purple
+Hallmark or Cadbury.
+Psychologically purple is a royal color, one steeped in sophistication, mystical wisdom, and spirituality.
+It implies a distinguished brand that has a history of quality.
+Brands that have been known to use it are postal services, spiritual gurus or blogs, chocolate businesses, and even Twitch streaming.
+Brown
+Nespresso or M&M’s.
+Brown psychologically represents earth, roots, down-to-earth, honest, friendship, and comfort.
+In the digital world, it represents a reliable product that can be used by anyone.
+It’s usually adopted by brands of cholocate, coffee, or parcel delivery. It can also work well for organic or nature-centered businesses too.
+Black
+Chanel or Adidas.
+Psychologically black is sturdy, timeless, classic, powerful, authoritative, and can even represent death.
+Black is usually associated with luxury items or elegance, think your really big brands that sell high-ticket items, cars, phones, and clothing.
+White
+Apple or Nike.
+The color represents in the mind; purity, clinical, spaciousness, simplicity, and virtue.
+White is sleek and usually has user-friendliness in mind. Think doctors’ websites, high tech, cars, and high fashion.
+Find Out More:
+
+Stretch your artistic muscles with our Best Website Builders for Artists
+Choose Your Additional Colors
+Once you have a primary color in mind, it’s time to choose the other colors that will compliment those colors. Every color has a counterpart that makes it “pop,” and these are known as color compliments.
+
+For example, a red circle on a green background pops a bit more than a blue circle on a green background. But a blue circle will look a lot better and more obvious on an orange background.
+
+So if you’re using a predominantly green website, it’s a good idea to implement red calls to action, or use red to highlight important features that you want to catch the eye of any readers.
+
+Try to only have one or two colors on top of your primary color. More than that, and your website could become messy. The known max is four to five colors. Nothing will stand out well if you inundate visitors with loads of different stimuli. However, bare in mind, when it comes to promotional materials or extras like icons, you may need those extra colors to help convey different icons meanings. 
+
+Eargo Color
+A good example of using additional colors is from the hearing aid brand Eargo. It has a main color of orange, so it’s used this duller blue to highlight this important section of its website. From what we know about color compliments, we can see how this blue and bright orange contrast against each other. The orange also makes important elements pop, like the “add to cart” button and the logo.
+
+Using a color wheel will help you find color that work together. Complementary colors are located directly opposite from each other, and the three primary colors are on the triangle points.
+
+
+Do You Like Our Graphics?
+Want to use any of the graphics on this page? Be our guest! You can access our graphics, plus a handy infographic summary, on this Google Drive. Just be sure to credit us by linking back to this article. Enjoy!
+
+Choose a Background Color
+Choosing good colors for a background is an important choice, as the background of your website is theoretically going to take up the most space. It may seem simple to make it white, but you really need to think about your branding and the feeling you want to convey.
+
+You can go for a more muted version of your primary color in order to solidify your branding. This will require a white or grey overlay on the background in order for text to show up.
+
+Alternatively, you could just have the whole website be an off-white color, or beige color, which is the more common choice. It’s inoffensive, and won’t stop text, images, or links – from jumping off the page.
+
+WBE Background
+Look no further than our own website to see what a blank, gray background can highlight.
+
+Choose a Typeface Color
+The final stop on your colorful journey is to nail down a font color. Once you’ve decided on the best font for your website, the color of your text is key. You might go for the easy choice and choose black, but have a browse around the internet, and you’ll find that purely black typefaces aren’t as common as you’d think.
+
+A black typeface on a white background can lead to eye strain, as there’s a 100% contrast – and people will be more likely to click away if your website is difficult to read.
+
+While explicitly colored typefaces should be reserved for links and important bits of information, you can use gray or gray-tinted color to give your website a softer, more inviting look.
+
+There hasn’t been a ton of experimentation in using colored font on websites other than in promotional pop-ups or logos, but that doesn’t mean you can’t! We would just recommend proceeding with caution as it might make it harder to read.
+
+Website template with a pink background and red text
+This Squarespace template for creative field careers uses bold red font.
+Here’s an example of a Squarespace template that uses colored font in an appealing way. We’d say if you work in a creative career, experimenting with bold colors will come across as more natural than if it were a tech company website for example.
+
+Tools To Help You Pick a Color Palette
+If you want a quick and free tool to help you choose your palette we cannot recommend coolors enough really. You go to the website and you can add the hex code of a color you like, and then hit the space bar and this nifty tool will show you colors that compliment it. Or it shows you entirely new color palettes if you don’t click the padlock on any color!
+
+blocks of color next to each other one has a padlock above it
+This tool shows you different color combinations that work well together.
+We recommend finding one or two color that really represents your brand, and then using this tool to find any additional colors. Also remember to write down or save your hex codes, which are the numbers associated with color as that will help you create promotional materials and your website.
+
+There’s also Color Safe, another website that lets you generate and browse colors by type, allowing you to find that perfect red or green.
+
+Color Safe
+Once you’ve formulated a palette, you can also input individual colors on Color Space to analyze whether there are more effective color schemes out there. What’s great about this tool is the ability to also check color gradients by adding two colors and selecting different arrows to see what a gradient design looks like.
+
+Tips for Choosing Website Colors
+By now, you’ll have a sense of what kind of color your website will be using. Here are a few additional tips for when you’re considering colors.
+
+Use Consistent Saturation
+One thing you can do to strengthen your brand is to use various colors with a similar saturation. Saturation is another way of saying a color’s brightness. Have a look at drink company Innocent’s usage of color:
+
+Innocent Color
+Here they have six different colors, but none of them feel out of place or jarring. That’s because their saturation is muted to the same level, making it feel consistent.
+
+Vary Saturation of the Same Color
+When a brand has a strong connection with a certain color, they might not want to branch too far from it. However, everything being a single color can become a bit stale, so it can be fun to take your primary color and play with the saturation a bit. Have a look at the social media options in the bottom left of this TechCrunch article.
+
+TechCrunch Colors
+All five of them are a similar green, but have varying levels of brightness. These vary up the visuals of the page, while also reinforcing the idea that a lighter green is synonymous with TechCrunch.
+
+How to Choose a Color for Your Website: Summary
+Whether you’re choosing color for a new website or for website re-design, here are the steps you’ll want to take when picking colors for your website:
+
+Choose a primary color: Pick a color that suits the energy of your product or service.
+Choose your additional colors: Pick one or two additional colors that complement your primary color, ideally colors that make your primary color “pop.”
+Choose a background color: Choose a color for the background of your website – possibly less “aggressive” than your primary color.
+Choose a typeface color: Choose a color for the text that is going to be on your website – remember that a solid black typeface is rare and not recommended.
+And don’t be afraid to use different resources online to find your perfect color combo – there are plenty around to sink your teeth into!
+
+Certain colors work better depending on what your site is trying to achieve. For specific branding tips, you can check out some inspirational brand strategy ideas. Or see our article for how to design your site to get started on website design.
+
+))
+
+Typography: The typography section of the planning document provides examples of the fonts to be used and where they are to be applied. No less than one font and no more than three fonts selections need to be selected. Indicate where each selected font will be used (such as headings, body, and so on). Other fonts can be used for special circumstances or sections as needed.
+Choosing Web Fonts Beginners Guide – Google Design
+
+((Choosing Web Fonts: A Beginner’s Guide
+Take the mystery out of font selection with our step-by-step guidance
+
+By Google Fonts
+
+If you get it right, typography can be incredibly powerful. Turn to the writings of Robert Bringhurst, whose Elements of Typographic Style has served as a sage reference text for decades, and you’ll find a high-minded articulation of the craft. Typography “exists to honor content,” according to Bringhurst, and when it’s done well it “reveals every element, every relationship between elements, and every logical nuance of the text.”
+
+Whether you find these words inspiring or intimidating, the plain fact is that the right typographic choice always reflects the specific needs of the project itself. These needs are not only aesthetic, but also technical and functional—and there’s only so much you can tell from snippets of text as you scroll through a dropdown menu from Alegreya to Zapf Dingbats. Certain fonts work best in headlines, while others read well in paragraphs. Some font families are large enough to include international scripts and special characters. And if the font comes in a range of different styles (like italics or small caps) and weights (from hairline to ultra-black), it’ll offer more tools to fine-tune the design as the project comes together.
+
+There’s a lot to think about, sure, but some of the most important considerations are the practical and functional features of the project. By starting with what you already know, then thinking through the following considerations, you’ll find a font that meets your needs.
+
+Start with your project’s scope
+Are you starting something that could go on for a few months or even years, like a magazine, or is it a one-off project, like a slide deck, logo, or presentation?
+
+Chances are that a large, long-term project (like a periodical or newsletter) will have a variety of different typographic needs over time. Your best bet for covering those different needs is to choose a large type family that includes a variety of weights, styles, and variants like small caps and ligatures. Large families make branding easier because sticking to a single font over time ensures that you'll be able to handle different situations without having to add another font into the mix. Try these examples: Alegreya, Alegreya SC, Merriweather, Merriweather Sans, Roboto, Roboto Condensed, Work Sans
+
+But if this is a short-term project (like a poster, album cover, or logo) you might not need extra weights, or the condensed and extended versions of a font. You could even choose a font with a single weight if you think it’s right for this particular task. Just bear in mind that the versatility of a large type family could still be useful as you make fine adjustments to the text in a short-run project. Try these examples: Bubblegum Sans, Graduate, Scope One, Space Mono
+
+What do you want your font to say?
+While the scope of your project could narrow your search by ruling out fonts that don’t have the range you need, or guiding you toward those that do, remember that there are no hard and fast rules to determine the font with the right aesthetic. That’s a matter of the font’s personality, but to some extent personality depends on familiarity.
+
+Many apps and websites still use a small selection of the most common fonts—a holdover from a time when this was the most practical approach to digital typography. It was once the case that using system fonts would be the safest choice because you could count on them to be in working order and available across most devices. Today, there’s no need to compromise by selecting a commonplace “workhorse” font. Web fonts tend to be just as reliable as system fonts, but with a greater variety to choose from. Try these examples: Proxima Nova, Helvetica, Museo, Futura, Brandon Grotesque (popular); Arial, Times New Roman, Courier New, Helvetica, Times, Courier, Verdana, Georgia (system); Gibson, Gotham, Classic Grotesque, Montserrat (web fonts)
+
+But if you’re still keen on finding an uncommon font to help your project stand out, there are dozens of commercial type foundries that sell proprietary fonts for either a flat fee or monthly rate. If you want a totally unique, bespoke typeface—and who wouldn’t—it can be expensive and time consuming, so start by reaching out to foundries for quotes. On the bright side, whomever you hire will probably handle many of the concerns listed in this guide. Among your free options, you could always look for a less commonly used web font. As a general rule, choosing a newer release means it won’t be in widespread use—at least not yet. We’re of course partial to Google Fonts. Take a spin through the directory to get a sense of just how many free web fonts are out there, and use the family specimen pages to view each font’s usage across the web.
+
+How much text are you typesetting?
+“Designers provide ways into—and out of—the flood of words,” writes design critic Ellen Lupton, “by breaking up text into pieces and offering shortcuts and alternate routes through masses of information.” Beyond the personality of your font choice, well-designed layouts also use visual cues, regularity, and variation to guide readers naturally. And choosing type according to the length of the text can give readers lots of cues and shortcuts to help with navigation.
+
+For headlines and subheads, you can choose an expressive, unique, even idiosyncratic font—including Display, Decorative, Handwritten, and Script styles. These unconventional, high-contrast designs tend to work well in this context because their details and visual complexity help to attract the eye. If you’d like to use a sans serif font for short bits of text, especially in large sizes, the regular weight tends to look a little out of place. Consider using the bold and compressed styles instead. If you prefer serifs, hairline serif fonts like Playfair Display or Rufina tend to work well in short lines because their high stroke contrast tends to grab the reader’s attention.
+
+Medium-length text, defined loosely as three to four paragraphs, is actually pretty flexible, which means you’ve got options. If you’re leaning toward a serif font, opt for something in the old style like Quattrocento, a transitional style like Libre Baskerville, or a slab serif like Arvo. Prefer a sans serif? Then the best choice would be something in the Humanist or Grotesque style like Cabin or Raleway, but even some geometric styles like Montserrat will work. Experiment by trying out a few of these and see what works best in layout.
+
+When typesetting longer sections of text—exceeding five paragraphs—a serif typeface is recommended. This is the traditional choice for book typography, but it also works well on-screen. Old Style or Transitional serif fonts, like EB Garamond or Libre Baskerville, tend to be easy on the eyes for longer reading like news and magazine articles. While it’s possible to use a Humanist sans serif font for long stretches of body text, the safer bet is a familiar serif design that readers can process quickly.
+
+What matters when it comes to point size?
+When choosing web fonts, you often have to weigh several considerations together. While the length of your text helps determine which font you select, the size at which you’re setting type is another important factor. At relatively small sizes, up to 16pt, try sans serif options like Roboto, Montserrat and Raleway. Compared to serif designs, those without (or sans) serifs tend to have a taller “x-height,” defined as the distance between the baseline and midline of an alphabet and the height of the letter “x,” which makes a design more legible at small sizes. Sans serifs also tend to have relatively low stroke contrast and a more even stroke weight, which gives them an even “color” when scaled down and packed into a small space.
+
+Dark letters spell "a good dog" on a gold background.
+“For a paragraph, which needs to be highly legible, you shouldn’t use something with ambiguous shapes,” says type designer Octavio Pardo. Decorative fonts like Comfortaa (shown above) can be difficult to read at length, so for long texts stick to highly legible “workhorse“ fonts like Alegreya or Bellefair.
+
+You can also get a sense of the overall quality of a font by examining the letters that tend to demand more time from a type designer—or just fall lower on their priority list. “Look at the shapes of the ‘a’, ‘g’ and the numerals,” says type designer Octavio Pardo. “Risky font choices reveal themselves in those glyphs. They should be daring but also legible. You can allow extravagant designs in low frequency glyphs like ‘v’ ‘w’ ‘x’ ‘y’ and ‘z’ as well as italics.”
+
+At medium sizes—such as subheads, pull quotes, or smaller titles ranging from 16pt to 24pt—consider using a sans serif font in the Geometric, Grotesque, or Humanist style. Montserrat, Lato, and Quattrocento Sans are good examples. Avoid extreme weights, neither too thick nor too thin, to keep text easy to read at a glance. If instead you’d like a serif font that’s contemporary and not too bookish, look for something without too much stroke contrast, like the slab serif fonts Arvo, Sanchez, and Slabo.
+
+Fonts designed to be used at large sizes, greater than 24pt, are called Display fonts. These tend to have striking features that stand out at higher point sizes, whereas at smaller sizes these same features tend to hinder legibility. Still, nearly any typographic genre is fair game for large text, just as long as the feelings evoked by the typeface are appropriate for the context. This is the ideal time to use a decorative or handwritten font with swashes and very high-stroke contrast, like Lobster or Berkshire Swash. Try something highly geometric, retro, or even grungy if it strikes the right tone. Just avoid fonts with large counters (the enclosed, interior spaces of letters like B or q) and tall x-heights, since these features are meant to aid the eye with smaller text and tend to look out of place when they’re scaled up.
+
+Who’s your audience and what languages do they speak?
+Remember that your app or website will probably reach users all over the world. Even if you’re providing content in a single language, many people use a translate feature in browser so that content appears in their native language.
+
+"The quick brown fox" in white text on a lavender background in Czech and English.
+“Auto-translation as a service makes the chances of someone seeing your content in another language a near certainty,” says type designer Eben Sorkin, whose Merriweather (shown above) has been expanded in recent years to support more European languages, as well as those using the Cyrillic script. “Having the glyphs needed for their language available will help make the user feel catered to,” says Sorkin. “The more global your customers, the more you will probably care about this.”
+
+In other words, if the font you’ve chosen has only basic Latin letters, auto-translate takes the typography of your project out of your hands—shifting your layout into some other font for those letters, giving it a “ransom note effect” where individual, accented letters change and stick out. Choosing a font that includes characters for other languages, guarantees that the design of your site will remain consistent for a broader swath of your readership. This may sound like a losing battle, but there are plenty of font families that include multiscript support.
+
+"The quick brown fox" on a pale green background in a dozen languages.
+If your principle concern is for a font to remain consistent across the greatest number of scripts possible, consider using the Noto font family (shown above).
+
+Even with basic Latin fonts, you’ll want to check whether the font includes the “Extended Latin” characters used in specific European languages. Consider characters accented with diacritic marks like the circumflex (â), grave (á), umlaut (ä), overring (å), or ogonek (ą). There are many more, but choosing a font with an Extended Latin character set will ensure that accented letters don’t mistakenly default to the unaccented version.
+
+A type family should appear consistent, even harmonious across different scripts—which is no small feat. Designers matching two or more scripts for a font must balance separate histories and writing traditions. If you expect to use two different scripts side-by-side, test a few sets of sample text to see if you think the two scripts sit comfortably together.
+
+Web fonts like Alegreya, Merriweather, Nunito, Roboto, and Quattrocento include a large range of characters, weights, and styles that qualify them as “superfamilies,” and these five superfamilies now support Cyrillic characters as well. One caveat: just like Latin, there are certain Cyrillic characters used only in a few languages, such as Serbian and Bulgarian. To provide for these languages, make sure the font has “Extended Cyrillic” support.
+
+Other web fonts support a wider range of writing systems. Depending on the project, it might be a priority for your font to have matching Arabic, Greek, or Hebrew characters. You can also find web fonts to support a range of South Asian scripts like Bengali, Devanagari, Gujarati, and Tamil, as well as Southeast Asian languages like Thai. To see your options in Google Fonts, filter by language with the dropdown menu.
+
+How do you weigh a font’s functionality versus its design features?
+The stylistic range of a type family breaks down into two parts: its functionality and design features. Functionality refers to the range of styles available to modify the overall appearance of the font. A functional font should have italics and a range of weights from thin to black. Try these examples: Barlow, Poppins, Libre Franklin
+
+A font’s design features are narrowly tailored variations on specific characters. These include small caps, contextual alternates, and different numbering styles. Small caps can be useful for titles and headers in certain contexts. They can lend sophistication to the text by adding variety and creating a sense of visual hierarchy. Try these examples: Carrois Gothic SC, Cormorant SC, Patrick Hand SC
+
+And while it’s uncommon for contextual alternates to be considered essential for a font to work well, they can add variety in several ways that might be very desirable for your project (see Montserrat Alternates). If you’re using a cursive or script font, its alternates could make the text appear more “natural” by adding the variety that would appear in actual handwriting (Caveat, Sriracha). On the other hand, the alternate characters in a serif or sans font may add a touch of distinction that stands out from normal text.
+
+Tabular figures: 0123456789. Each numeral has the same width, creating a uniform appearance.
+Depending on what’s needed for your project, remember to compare the styles of your font’s figures. The difference between Oldstyle and Tabular styling (shown above), will affect your layout and formatting choices. Tabular figures are often used in tables because each number has the same character width, while Oldstyle figures read more comfortably in paragraphs.
+
+If you expect to use a lot of numbers, bear in mind that they come in several different styles intended for different contexts. Oldstyle figures are preferable for blocks of text like paragraphs. If you look closely, you will notice that some numbers are aligned below the baseline that orients the rest of the text. This helps with the readability of numbers within long strings of text. Tabular figures are vertically centered and monospaced horizontally. This helps them to appear more regular and consistent in tables, hence the name. Also bear in mind that only some fonts include proper fraction signs. Ditto the hundred-odd currency symbols used all over the world. Try these examples: Alegreya, Exo, Montserrat, Roboto, Spectral, Google Fonts with OpenType features
+
+What if you want to use more than one font?
+With the basics out of the way, you can safely move on to more complicated decisions like font pairing. Pairing can be a fairly nuanced and complicated matter, even for type experts, but that doesn’t mean it should be avoided altogether. “There are endless combinations, and finding the right pairing can take a long time,” says designer Yuin Chen, who led last year’s Google Fonts update. There’s pleasure in trying out different combinations, so embrace the process and test as many options as you can—what works best might surprise you.
+
+Some pairings work well due to their contrast, while other pairings thrive on similarity. Stark differences can make a layout appear more dynamic, while using different styles from a superfamily adds visual cohesion. If you’ve chosen a unique and striking display font for titling, try something toned-down and familiar for the body text. A classic choice would be to use the sans serif style for titling and the serif style for body text. Try these examples: Alegreya and Alegreya Sans (similar), Libre Franklin and Libre Baskerville (contrast)
+
+Pro tip: When browsing family specimen pages in the Google Fonts directory, you can try out and customize popular pairings.
+
+Still undecided?
+It’s worth making a short list and getting to know the fonts you’re considering. Review the full range of characters and styles for each option. Check out how they look in Cyrillic or Thai. Find a bio for the designer, and see how this font has been used in the past. Above all, you don’t want to underestimate your typographic needs or the needs of your readers. The more styles, characters, and scripts a font supports, the better prepared you’ll be.
+
+Typography is a subtle art, but less elusive than its reputation might suggest. If you’ve already given some thought to the organization of your project, its scope, and its audience, you’re primed to make smart typographic choices.
+
+Several designers lent their expertise to the construction of this guide: Yuin Chien, Joana Correia, Dave Crossland, Natanael Gama, Octavio Pardo, Eben Sorkin, and Eduardo Tunni.))
+
+Wireframe: Design a wireframe of your project's home page layout. Wireframe diagrams can be simple and do not need to have actual content, just representations of content and their layout relationship. Provide a sketch for the mobile view and for a larger viewport (desktop/tablet) view for the home page.
+What is a Wireframe? – evolve
+
+((Hi, I'm Kiersten Bonifant, a web designer here at Evolve Creative Group and today we're
+0:23
+going to be learning about wireframes and why they're a crucial part of the web design
+0:27
+process.
+0:28
+To get started, we need to understand what is a wireframe?
+0:31
+Basically, to simplify it, a wireframe is a sketch of your website, before any kind
+0:37
+of design elements or development even takes place.
+Summary
+0:40
+So, to sum it up, it's basically a visual representation of elements on a website.
+0:46
+To give you an idea of what that might look like, without any colors, shading, fonts,
+0:50
+or other design elements, you basically have your webpage and then the most important pieces
+0:58
+outlined in boxes, shapes, colors, but only in gray-scale to keep it really simple.
+1:04
+For example, maybe we have a logo in the top left corner, our navigation can come after
+1:10
+that.
+1:12
+Perhaps we have a sign up box for people to log in.
+1:18
+Maybe there's an image rotator for important news updates and bulletins, and maybe there's
+1:25
+a donate button for a call to action on this website.
+1:29
+So, you can see that it's very simple.
+1:33
+It's a dumbed down version of what the website's going to grow to be in time.
+1:37
+So, now that we know what a wireframe is and what it looks like, we need to talk about
+Hierarchy of Information
+1:43
+why it's a really important part of the web design process.
+1:46
+You should always be sure to do it before you start designing or developing.
+1:50
+The first and most important reason that you should always wireframe is it lets you establish
+1:55
+hierarchy of information on the page or website.
+1:58
+What that means is that it lets you map out where the most important elements are going
+2:02
+to go.
+2:03
+That could be a call to action, like a donate button, or maybe it's a sign-up form, or important
+2:07
+information.
+2:09
+To show you how users view a page whenever they arrive at it, it's basically an F-shape
+2:14
+pattern, which has been proven through research and eye tracking software over the years.
+2:19
+So, when somebody arrives on a page, they start at the upper left and work their way
+2:24
+across the webpage, going almost the full width.
+2:27
+After that, they'll start to work their way down the page, and then across again a little
+2:33
+bit lower, but not as far over.
+2:35
+So, you can see how we start to develop an F-shaped pattern.
+2:39
+So, your most important elements, your calls to action, are going to want to be located
+2:43
+somewhere in the upper left.
+2:45
+Historically, that's where users are looking first.
+2:49
+Another thing it allows you to do when you're establishing this hierarchy of information
+2:53
+is it's basically an outline of your website, a really simplified version of where that
+2:59
+information is going to go.
+Simplify Communication
+3:04
+So the next most important aspect of wireframing is it allows you to simplify communication.
+3:09
+What I'm talking about here is communication between you and your client.
+3:13
+So since we basically have a stripped down, bare bones version of what your website is
+3:17
+going to become, you don't have to worry about your client being distracted by design elements
+3:22
+like colors, fonts, things like that that might get in the way of seeing the functionality
+3:27
+of the site and how a user is going to work their way through it.
+3:31
+You don't have to worry about that with a wireframe.
+3:33
+There's nothing to focus on, other than where things are located and how prominent they
+3:36
+are on the page.
+Wireframing as a Blueprint
+3:40
+Now the last point I want to touch on today about wireframing is that it can kind of act
+3:44
+as a blueprint for you when you get to the design process of your project.
+3:48
+What I mean by that is, really, if you look at this, it's an outline.
+3:53
+It's similar to a blueprint that an architect might use for their new building.
+3:56
+So, you can even, if you want to, underlay that below a Photoshop document or something
+4:01
+like that as a point of reference for where your main objects are going to be located.
+4:05
+Then, the styles and aesthetic of the site are up to you to decide from then on.
+4:11
+So I think what we've establish here today is that wireframing is a really important
+4:15
+part of the process.
+4:16
+It's going to be a basic visual representation of all the elements on your web site.
+4:21
+It's important, because it allows you to establish hierarchy of information.
+4:25
+You want to follow that F-shape pattern that we know users are looking for information
+4:30
+in.
+4:31
+And, it lets you understand what are the most important parts of your web site.
+4:34
+What do you need people to click on first?
+4:36
+It simplifies communication between you and your client, which is always good for everyone
+4:40
+involved, and it acts as a visual blueprint when you start the design portion of your
+4:45
+process.
+4:46
+So basically, in short, it's going to save you a lot of time, money, and headaches to
+4:51
+start off every design project with a wireframe.))
+
+Remember that in an earlier course you worked with a given wireframe. Country/Place Page
+
+CSS
+Add supporting CSS files as needed. The styling can be basic.
+Be sure to use your selected color scheme and typography listed in this plan on your site plan document.
+Testing
+Self check and evaluate your own work on this page using the following tools:
+HTML Validation: W3C Markup Validator
+Accessibility: WAVE Web Accessibility Evaluation Tool
+Best Practices, SEO, & Performance: Google PageSpeed Insights or Chrome DevTools Lighthouse
+Color Contrast: WebAIM Contrast Checker
+Submission
+Commit and push your document to your wdd231 repository.
+Return to Canvas and submit the URL of this document.
+Be sure to test your own submission to make sure it renders in a browser.
+
+
+## W05 Learning Activities
+# User Experience: Page Performance
+
+UX: Page Performance
+Overview
+As a web developer, creating beautiful, standards-based pages is just the beginning. To be effective, your site must also perform well and offer a great user experience (UX).
+
+This learning activity introduces the key questions and metrics you should consider as you design your site to optimize for better performance. Focusing on this performance data will equip you to enhance the overall user experience and engagement.
+
+Prepare
+When users visit a page, their experience can be broken down into four core questions:
+
+Is it happening?
+Did the navigation start successfully? Has the server responded?
+At this stage, users want to know something is happening. They have clicked a link and landed on the page and want to see that it is responding. A delay here can feel like the site is broken.
+Is it useful?
+Has enough content rendered that users can see and engage with the content?
+Moving beyond simply knowing that the page has started loaded, users want to be able to see meaningful content quickly. If they can't, they may get frustrated and leave the page.
+Is it usable?
+Can users interact with the page, or is it still busy or unresponsive?
+If the page has visually loaded, it might look ready, but if buttons don't work or the page freezes, it's not usable.
+Is it delightful?
+Are interactions smooth and natural and free of lag?
+This stage is about polish. Smooth animations and responsive interactions make the experience feel high-quality and enjoyable. Whereas if content is jumping around or contains lag, it can feel unprofessional.
+Performance Metrics
+To answer the above questions in a measurable way, web developers use web performance metrics. Here are three core metrics:
+
+First Contentful Paint (FCP)
+What it is: Time from page load to when any content first appears (including text or images).
+Why it matters: Gives the user confidence that something is happening.
+Largest Contentful Paint (LCP)
+What it is: Time until the largest visible content element (usually an image or a big text block) appears.
+Why it matters: Helps determine when the main content is visible and usable.
+Cumulative Layout Shift (CLS)
+What it is: A score that represents how much the layout unexpectedly shifts while loading.
+Why it matters: Shifts can cause users to click the wrong thing or feel disoriented.
+There are additional metrics that are important to consider if you want to dig deeper into this field, such as interaction latency, runtime responsiveness, smoothness, total blocking time, and time to first byte. These metrics may also be useful in seeking to evaluate and improve page performance.
+
+User Perception
+In addition to the metrics above, it is important to consider the perception of the user as well. A fast page that feels awkward can still create frustration, and a slightly slower page that feels smooth might result in a better experience. With this in mind, it is important consider both:
+
+The objective data (such as the metrics mentioned above)
+The subjective experience (smoothness, flow, and user feedback).
+The following are some tips to improve the overall user experience and performance.
+
+Use lazy loading for images below the fold.
+Minimize JavaScript and CSS blocking the main thread.
+Use efficient caching and content delivery networks CDNs.
+Avoid unexpected layout changes by setting size attributes on images and embeds.
+Test on a variety of real devices and network conditions.
+Lighthouse Tools
+Throughout this course and previous courses, you have used the Google Lighthouse tool, that is integrated into DevTools. This tool generates reports on performance metrics, as well as accessibility, best practices, and Search Engine Optimization (SEO). You have already been running this tool and it is used in many of the assignment rubrics.
+
+Another comparable tool that is geared towards analyzing the performance of live web pages and providing optimization suggestions is the online PageSpeed Insights application on web.dev.
+
+The following are some of the principles and specific diagnostic methods you have been using throughout this and previous courses to consider performance:
+
+Optimize images, properly size images, and consider next generation image formats
+Set an explicit width and height on image elements to reduce layout shifts and improve CLS.
+Defer offscreen images and content including using lazy loading and other methods.
+Use a Content Delivery Network (CDN)
+Avoid excessive DOM sizes
+Reduce unused CSS and unused JavaScript.
+Reduce the scope and complexity of style calculations
+Activity Instructions
+In this activity you will evaluate the performance of The Church's website using the Lighthouse tools.
+
+In your browser, start an incognito window or private browsing session.
+Navigate to the old Church url of: https://lds.org. Why does this URL redirect to a new domain?
+Note the domain name forwarding service changes the URL to https://churchofjesuschrist.org.
+(In addition, your preferred language parameter may be part of the URL's querystring with a name-value pair, e.g., ?lang=es)
+
+How long did the page take to render the actionable Sign In button from your end-user perspective?
+Open the browser's DevTools on this page to check the performance using metrics.
+Run a audit on the page by using the Performance tab and clicking the reload button.
+
+Screenshot of Performance Tab
+
+Screenshot of Performance Audit Reload Button
+Use the screenshot timeline to find out how long it took to finally render the Sign In button. You can do this visually.
+
+Screenshot of Timeline Paint
+Using the Lighthouse tool, select the Mobile device and turn on the Performance category and then click Analyze page load.
+Review the Performance metrics and the diagnostics.
+Is there anything that you might suggest as low hanging fruit to have fixed?
+Post a comment or respond to a post in Microsoft Teams.
+Evaluate your own work for page load using these page performance tools.
+Optional Resources
+Web Performance Working Group
+"The mission of the Web Performance Working Group is to provide methods to measure aspects of application performance of user agent features and APIs."
+
+## W05 Team Activity: Report
+# Team Meeting
+
+Team Meetings
+Overview
+Team meetings are an essential part of the course. This collaboration provides opportunities for you to work together, share ideas, and solve problems. This week, you will meet with your team live to discuss the Chamber of Commerce website project and work on the assigned page. In addition, you are expected to communicate and collaborate with your team asynchronously throughout the week.
+
+Instructions
+Prepare for your team meeting this week by reviewing, planning, designing, and developing as much of the assignment as possible before the team meeting.
+Live attendance to the scheduled meeting is required.
+Show respect to others by being on time to the meeting and share your camera during the meeting.
+Start the meeting with a prayer.
+Work together and discuss the requirements of the assignment.
+Plan on meeting for at least one hour.
+Support each other throughout the entire week and course with asynchronous communication through your Microsoft Teams channel.
+
+## W05 Assignment
+# Chamber Discover Page | ☑️ Audit your work
+
+W05: Chamber Discover Page
+The chamber of commerce website assignments are designed for group collaboration and each member of the group is responsible for their own chamber website.
+
+Overview
+This is the final week of the chamber of commerce project. Finish the website by designing and developing the chamber discover page which promotes the area in which your chamber of commerce is located. The purpose of the page is to provide factual and representative information about the area including demographics and features that appeals to prospective chamber members and visitors.
+
+Instructions
+For this assignment you will use grid-template-area to build a responsive layout for small, medium and large screens.
+
+((grid-template-areas CSS property
+Baseline Widely available
+The grid-template-areas CSS property specifies named grid areas, establishing the cells in the grid and assigning them names.
+
+In this article
+Try it
+Syntax
+Formal definition
+Formal syntax
+Examples
+Specifications
+Browser compatibility
+See also
+Mozilla Data Collective
+Get open datasets
+The language datasets you've been missing
+Join Now
+Ad
+Try it
+CSS Demo: grid-template-areas
+
+Reset
+grid-template-areas:
+  "a a a"
+  "b c c"
+  "b c c";
+grid-template-areas:
+  "b b a"
+  "b b c"
+  "b b c";
+grid-template-areas:
+  "a a ."
+  "a a ."
+  ". b c";
+
+Those areas are not associated with any particular grid item, but can be referenced from the grid-placement properties grid-row-start, grid-row-end, grid-column-start, grid-column-end, and their shorthands grid-row, grid-column, and grid-area.
+
+Syntax
+css
+
+Copy
+/* Keyword value */
+grid-template-areas: none;
+
+/* <string> values */
+grid-template-areas: "a b";
+grid-template-areas:
+  "a b ."
+  "a c d";
+
+/* Global values */
+grid-template-areas: inherit;
+grid-template-areas: initial;
+grid-template-areas: revert;
+grid-template-areas: revert-layer;
+grid-template-areas: unset;
+Values
+none
+The grid container doesn't define any named grid areas.
+
+<string>
+A row is created for every separate string listed, and a column is created for each cell in the string. Multiple cell tokens with the same name within and between rows create a single named grid area that spans the corresponding grid cells. Unless those cells form a rectangle, the declaration is invalid.
+
+All the remaining unnamed areas in a grid can be referred using null cell tokens. A null cell token is a sequence of one or more . (U+002E FULL STOP) characters, e.g., ., ..., or ..... etc. A null cell token can be used to create empty spaces in the grid.
+
+Formal definition
+Initial value	none
+Applies to	grid containers
+Inherited	no
+Computed value	as specified
+Animation type	discrete
+Formal syntax
+grid-template-areas = 
+  none       |
+  <string>+  
+This syntax reflects the latest standard as per CSS Grid Layout Module Level 2. Not all browsers may have implemented every part. See Browser compatibility for support information.
+Examples
+Specifying named grid areas
+HTML
+html
+
+Copy
+Play
+<div id="page">
+  <header>Header</header>
+  <nav>Navigation</nav>
+  <main>Main area</main>
+  <footer>Footer</footer>
+</div>
+CSS
+css
+
+Copy
+Play
+#page {
+  display: grid;
+  width: 100%;
+  height: 250px;
+  grid-template-areas:
+    "head head"
+    "nav  main"
+    ".  foot";
+  grid-template-rows: 50px 1fr 30px;
+  grid-template-columns: 150px 1fr;
+}
+
+#page > header {
+  grid-area: head;
+  background-color: #8ca0ff;
+}
+
+#page > nav {
+  grid-area: nav;
+  background-color: #ffa08c;
+}
+
+#page > main {
+  grid-area: main;
+  background-color: #ffff64;
+}
+
+#page > footer {
+  grid-area: foot;
+  background-color: #8cffa0;
+}
+In the above code, a null token (.) was used to create an unnamed area in the grid container, which we used to create an empty space at the bottom left corner of the grid.
+
+Result
+Play
+
+Specifications))
+
+Use your site page template to create a new page named "discover.html" in the chamber folder.
+As always, preserve the header, navigation, and footer content.
+Use your existing CSS and then add or modify rules and declarations as needed. Some of you will choose to add a medium.css file with a media query.
+Choose 8 items of interest in your area.
+Locate and resize a photo for each item of interest. Photos should be around 300px wide by 200px tall and saved using the webp format
+Create or find a name, address, and description for each of the 8 items of interest in your area.
+Store this information in a JSON formatted file with a .mjs extension in the "data" folder of your site. Remember to include an export statement.
+In the head of your page when you link to your script, remember to add type="module" so you can import the information for the 8 items of interest.
+Build 8 cards using an h2 for the title, a figure tag for the image, an address tag for the address, a paragraph for the description, and a button titled "learn more".
+Use named grid areas to layout the cards differently for small screens (320px to 640px wide), medium screens (641px to 1024px) and large screens (1025px and above). This is NOT the same as simply creating multiple columns as the screen gets wider.
+Watch: Using Grid Areas Part 1
+Using AI to generate JSON
+
+In this web lab, we will explore using
+named grid areas to build
+a responsive layout for
+your chamber Discover page.
+We will start by getting help from
+an AI generator to create JSN data for us.
+We'll then modify that data
+to use as a module in our assignment.
+We will then implement named grid areas
+to build a responsive layout.
+If you have not used named grid areas before,
+you are going to love them.
+For small screens, we
+will stack all the items
+so they display well on
+a small mobile device.
+For medium screens, we'll
+change the layout to something like this.
+For large screens, we'll change up
+the layout again to get two columns.
+Let's give it a try. Our end goal
+today is to get Chat GPT or
+some other AI to generate information
+about fun place to see in
+whatever town you're doing
+your Chamber of Commerce in.
+Let me ask. What are
+ten fun things to do in Lima Peru?
+And there they are. Ten of them.
+Now this data isn't very useful.
+Let's modify our prompt to
+see if we can get better information.
+Please include the address,
+cost description, and a photo URL.
+There it is. The address, the cost,
+the description, and photo URL.
+Once again, very impressive information,
+but not quite what we need.
+We need something that will work
+as a module in our project.
+Let's ask some additional questions.
+Can you please give me this information
+as a JSN format,
+and there it's generating it live.
+Click on Copy of the code.
+Come over here to our empty
+places module JS file, paste it.
+Let's come up to the top.
+We're going to export this data.
+It'll be a constant, so it's unchangeable.
+Then we can make up
+any variable name we want.
+I'm going to use places
+and set it equal to this array.
+As we review this, you can
+see for each one, there's a name,
+address, cost description and photo URL.
+Uh, Look at this one.
+This one's a little weird. Evidently, there's
+two locations for this particular restaurant.
+We're going to modify this to
+a single address so our data is consistent.
+Notice it has an address set equal to,
+in this case, an array.
+Well, I don't want the array,
+so I'm going to get rid of that.
+And I'm just going to choose
+this first one just to
+keep life really simple.
+Cut paste.
+Don't forget the comma.
+Then we can get rid of these three lines.
+Now we're back to a consistent one name,
+one address, one cost, one description.
+Let's go into our scripts file.
+It's completely empty.
+We want to do is import.
+We're going to come back to the module JS
+and grab this variable.
+I like to copy and paste so I have no typos.
+We're going to get it from,
+and now we need a path.
+Since we are inside the Java script folder,
+we need to do to get back to the root,
+and then open the data folder
+and then open the places.
+Now, test it, console dot log.
+Let's take places. Let's spit it out.
+Let's come back here and we have an error.
+It says we cannot use an
+import statement outside of a module.
+If you remember from a previous lesson,
+in our Java script link,
+we have to add another parameter.
+Type equals module.
+With that change,
+look at what we've got here.
+We have ten places
+generated by Chat GPT for us,
+saved us tons and tons of work.
+Each one has an address, a cost,
+a description, a name,
+and a photo URL.
+Now, we're going to need to
+modify the pho URLs.
+It's actually going to become
+the name of a file.
+I'm going to take this part
+off and the photo ura
+will just become a file name.
+Remember, we use web P not JPEG because
+they're a smaller file and
+therefore much faster to download.
+I'm also going to have to actually go get
+photographs for each one of these places,
+and going to have to crop them,
+resize them to a consistent size,
+save them all as web ps.
+Let me take about a 30 minute break.
+Let me do all that work
+and we'll come back together.
+
+Watch: Using Grid Areas Part 2
+Implementing Grid Areas
+
+In Week four of this class,
+you learned how to take the data from
+a JSN Formata java script file and
+import it and then
+display the results onto a web page.
+I will not be covering that in this video.
+The image name in the JSON file was
+modified to a file name
+with a web p extension.
+I have located a photo for
+each of the places to visit.
+The images were then cropped to
+the same size for a consistent look and feel.
+I saved each image as a web p format.
+I have used what I've learned from Week four
+and built cards for each place to discover.
+Now it's time to use
+named grid areas to
+create a responsive layout.
+The basic styling of this card that you see,
+I'm assuming that you already know how to do.
+So I'm not going to waste time
+repeating stuff that you've learned before.
+What I do want you to pay
+attention to is that
+the current layout starts with the photo.
+Next, has the place name
+followed by the address,
+followed by the description.
+Well, that's not at all what I want.
+We're going to use name grid areas
+to switch that stuff around.
+Our first selector is
+all the places and the div,
+which represents the card.
+If you'll notice up here on
+the left and the top right corners,
+the image is actually sticking
+out past the corner radius.
+The first thing I'm going to do
+is set the overflow to hidden.
+To rearrange the pieces of the card,
+I need to start by displaying as a grid.
+Then this is where the magic happens.
+I'm going to use grid template areas.
+Each line, I'm going to do a set of
+quotes for each element on the card.
+There's four elements, so
+I've got four sets of quotes.
+Well, the first thing I want
+on my card is the name of the place to visit,
+and I will just use the word name.
+This is not a reserved word,
+it's my word. I just made it up.
+The next thing that I want to display
+below the name is the photograph.
+Below that, I want
+to display the description,
+and below that will
+be the location or the address.
+Now, that in and of itself makes no change.
+This is where the power comes in.
+Down here, I'm referencing
+the idea of all places,
+the card di, and the heading two,
+which is the name.
+I'm going to assign that to grid area,
+and I will use the same word I made up above.
+Watch that. It immediately jump
+to the first position on the card.
+Now the image is grid area.
+It's going to go into the photograph spot,
+and of course, it was already there,
+so it automatically stays the same place.
+Now the paragraph, which is
+the description down here needs to move up.
+It's going to become grid area.
+Description. See how it switched.
+Pretty cool.
+Finally, grid area location.
+By simply using CSS.
+We have completely rearranged
+our card into a different layout,
+and we could just move
+these words here around,
+for example, I could take
+the description and by
+simply putting it below the name,
+I could rearrange all
+of the cards on the page.
+Now, I don't want to do that,
+but you can see how easy it is.
+Now let's take a look at
+a slightly wider layout.
+Let's open our large.
+Actually, I want three different layouts.
+I want a small for phone,
+a medium for tablet,
+and a large for desktops.
+I'm going to come into my large CSS,
+and I'm going to file save as,
+and I'm going to change the name to medium.
+Now you could do a separate media query,
+but I don't like to do
+that because it gets messy.
+I'm going to introduce a new file.
+I'm going to come to my index
+and after my small,
+because these have to go in order,
+I'm going to load the medium.
+And then the large.
+The medium breakpoint is 38 REMs.
+The large breakpoint,
+I want to be much larger.
+If I bring up a calculator and I want
+my breakpoint to be at 10:24 pixels,
+I will divide that by 16 that
+gives me 64 RAM for my breakpoint.
+For the large, I'm going to choose 64.
+Back to medium, what
+changes do I want to make here?
+For the medium screens,
+I'm going to have two columns instead
+of one column. This is what it looks like.
+I'm going to copy this entire section
+just so I don't have any typos.
+In between my media query here.
+I'm going to paste it and
+remove everything that's redundant.
+Now, currently, the grid template areas have
+one word on each line.
+It's a single column.
+If I take photograph, copy it,
+put it in front of name,
+I now have a photograph column
+and a name column.
+If I take the description,
+Put it next to the photograph,
+I have two columns.
+Then if I take the photograph
+and put it in front of the location,
+get rid of this extra one, save it.
+I now have a photograph taking up
+the full left side with the name above it,
+the description next, and the location after.
+Here's the small version,
+and there we cross
+over to the medium version.
+It's that simple. You just
+rearrange stuff here.
+Now want you to notice, each of
+these images is slightly different size.
+So we're just a little smaller than other.
+I'm going to add another statement in here,
+which is going to talk to
+the images and I'm going to
+force their width to a consistent width,
+in this case, 300.
+Now they're all exactly the same.
+That's really good design consistency.
+As I make this page wider,
+at some point it gets a little bit id.
+Now we're going to move to our large layout.
+This one starts at 64
+m. L et's talk to pound all places,
+which is the parent, and
+we'll tell it to display as a grid.
+And then we will set
+the grid template columns
+to one fraction and one fraction.
+That's going to be two even columns.
+Boom. There we go.
+There's one and one,
+one and one, one and one.
+We take this from a small version,
+stacked side by side,
+two columns, very nicely
+done with grid template areas.
+
+Using localStorage to store the last visit date by the client, display one of three possible messages about the time between page visits in the content area.
+There are many options for the placement of visitor information on the page. Consider the purpose and user experience in your selection. Some options include an overlay or message area that can be closed, inline into the content area, or the footer.
+
+If this is the user's first visit, display "Welcome! Let us know if you have any questions.".
+If the amount of time between visits is less than a day, display "Back so soon! Awesome!".
+Otherwise, display the number of days in a message like this: "You last visited n days ago.", where n is the actual, whole number of days between visits. If the number of days is 1, then change the language to "day" not "days".
+Consider using the localStorage object to store the date of the last visit to the page. This will allow you to compare the current date to the last visit date. In addition, storing the current date usingDate.now() allows the date to be stored in milliseconds.
+
+Example Code: Date Math
+Demonstration code to calculate and display the days until Christmas
+
+((<main>
+	<h1>📅 Date Math (Days Between Dates)</h1>
+	<p>See the ⚙️<a href="https://codepen.io/blazzard-jason/pen/ExeBjab" target="_blank">Date.now() TimeStamp</a> &nbsp; pen for Date.now() information.</p>
+	<hr>
+	<p><span class="label">Date.now(): </span> <span id="today"></span> &nbsp;<span class="smaller">(milliseconds)</span></p>
+	<p><span class="label">Next Christmas: </span> <span id="christmas"></span> &nbsp; <span class="smaller">(milliseconds)</span></p>
+	<p><span class="label">🎄Christmas - Date: </span> <span id="christmasDate"></span></p>
+	<hr>
+	<p><span class="label">Days until Christmas: </span> <span id="daysleft"></span></p>
+
+</main>
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	place-items: center;
+	justify-content: center;
+	font-family: Roboto, sans-serif;
+}
+
+main {
+	margin: 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	width: 760px;
+	background-color: rgba(225, 225, 255, 0.2);
+}
+
+p {
+	margin: 1rem;
+	display: flex;
+}
+
+.label {
+	display: block;
+	width: 175px;
+	font-weight: 700;
+	color: navy;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.smaller {
+	font-size: smaller;
+}
+
+
+// milliseconds to days constant = 1000 ms/s * 60 s/m * 60 m/h * 24 h/day
+const msToDays = 86400000;
+// today's date
+const theDateToday = new Date();
+
+// initialize display elements
+const todayElement = document.querySelector("#today");
+const christmasElement = document.querySelector("#christmas");
+const christmasDateElement = document.querySelector("#christmasDate");
+const daysElement = document.querySelector("#daysleft");
+
+// processing
+const today = Date.now();
+const christmasDate = new Date(Date.UTC(theDateToday.getFullYear(), 11, 25));
+// check if is the waing days of December, if so ... change to next year.
+if (theDateToday.getMonth() == 11 && theDateToday.getDate() > 25) {
+	christmasDate.setFullYear(christmasDate.getFullYear() + 1);
+}
+// find difference between epoch times in ms and convert to days
+let daysleft = (christmasDate.getTime() - Date.now()) / msToDays;
+
+todayElement.textContent = today;
+christmasElement.textContent = christmasDate.getTime();
+christmasDateElement.textContent = christmasDate;
+daysElement.textContent = `${daysleft.toFixed(0)} days`;
+
+))
+
+Use a CSS property effect whenever a user hovers over the images in the gallery with their mouse. This effect design is your choice. Do not apply this effect to the images in the mobile view.
+Example Code: CSS Image Effects
+Effects such as blends, shadows, opacity, filters, etc.
+
+((<h1>Grid Auto Columns and Image Effects</h1>
+<section>
+	<h2 class="stdlf">Barranquilla Columbia Temple</h2>
+	<div class="container stdlf">
+		<figure>
+			<img class="hover" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+			<figcaption>:hover pseudo-class | box-shadow</figcaption>
+		</figure>
+		<figure><img class="rocorn" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+			<figcaption>border-radius (15px 150px)</figcaption>
+		</figure>
+		<figure><img class="opac" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" alt="Barranquilla Columbia Temple">
+			<figcaption>opacity (.5)</figcaption>
+		</figure>
+		<figure><img class="blur" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+			<figcaption>filter: blur at 4px</figcaption>
+		</figure>
+		<figure><img class="gray" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+			<figcaption>filter: blur (1px) and grayscale (50%)</figcaption>
+		</figure>
+		<figure><img class="object" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+			<figcaption>object-fit<br><br>⚙️ <a href="https://youtu.be/5CZyxnCdXuk" target="_blank">More on Object Fit from Layout Land</a></figcaption>
+		</figure>
+		<figure><img class="contrast" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+			<figcaption>filter: contrast (50%)</figcaption>
+		</figure>
+		<figure><img class="saturate" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+			<figcaption>filter: saturate(50%)</figcaption>
+		</figure>
+		<figure><img class="shape-outside" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+			<figcaption>Shape-Outside (shape-outside: circle();) is applied with a border-radius and a reduced width. The shape-outside property may not be supported in your browser. Consult <a href="https://caniuse.com/#search=shape-outside" target="_blank">CanIUse</a> to check the support status of this css property.
+			</figcaption>
+		</figure>
+		<figure><img class="mbm-difference" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+			<figcaption>mix-blend-mode: difference</figcaption>
+		</figure>
+		<figure><img class="mbm-hard-light" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+			<figcaption>mix-blend-mode: hard-light</figcaption>
+		</figure>
+		<figure>
+			<img class="transform" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+			<figcaption>Flip Horizontally</figcaption>
+		</figure>
+		<figure>
+			<img class="turn" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/1280x800/3-Barranquilla-Columblia-Temple-2135198.jpg" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+			<figcaption>Turn Unit</figcaption>
+		</figure>
+	</div>
+
+</section>
+
+.stdlf {
+	font-weight: 700;
+	border-bottom: 1px solid #777;
+	margin-bottom: 1rem;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+}
+h1 {
+	font-size: 2.5rem;
+	padding: 1rem;
+	background-color: #333;
+	text-align: center;
+	font-family: "Acme", Arial, sans-serif;
+	color: #fff;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.5rem;
+	color: darkgreen;
+}
+section {
+	margin: 1rem auto;
+	max-width: 960px;
+	padding: 0.5rem;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 25px;
+	place-items: center;
+}
+
+figure {
+	background-color: #fff;
+}
+img {
+	width: 100%;
+	height: auto;
+	margin: 0.5rem;
+}
+figcaption {
+	font-size: smaller;
+}
+/* hover effect */
+.hover:hover {
+	box-shadow: 0 0 50px #333;
+}
+/* rounded corners - boxmodel */
+.rocorn {
+	border-radius: 15px 150px;
+}
+/* simple opacity */
+
+.opac {
+	opacity: 0.5;
+}
+
+.blur {
+	filter: blur(4px);
+}
+
+.gray {
+	filter: blur(1px) grayscale(50%);
+}
+
+.object {
+	width: 100%;
+	height: 75px;
+	object-fit: cover;
+}
+
+.contrast {
+	filter: contrast(50%);
+}
+
+.saturate {
+	filter: saturate(50%);
+}
+
+.shape-outside {
+	border-radius: 100px;
+	width: 35%;
+	margin: 0 3em 0.5em 0;
+	float: left;
+	shape-outside: circle();
+}
+
+.mbm-difference {
+	mix-blend-mode: difference;
+}
+
+.mbm-hard-light {
+	mix-blend-mode: hard-light;
+}
+
+.transform {
+	transform: scaleX(-1);
+}
+
+.turn {
+	rotate: 0.05turn;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 1px;
+}
+
+))
+
+Validate the links on the entire chamber website and continue to improve all the pages given the feedback from your submissions and from your peers.
+Testing
+Continue to improve each page of the chamber site project that you have worked on so far in the course by fixing development standard issues.
+Make sure all the links are working between the existing pages.
+Continuously check your work by rendering locally in your browser using the Live Server tool in VS Code.
+Work to meet the Web Frontend Development Standards for the course.
+
+((WDD Frontend Development Standards
+Overview
+Web frontend development standards ensure that web applications are built with consistency, quality, and best practices in mind. Adhering to these standards helps create a cohesive user experience, improves maintainability, and enhances performance across different browsers and devices. By following established guidelines for HTML, CSS, and JavaScript, developers can ensure that their code is clean, efficient, and accessible to all users. These standards also promote collaboration among development teams, making it easier to work together on projects and share codebases.
+
+Many of these development standards are modeled after The Front-End Checklist by David Dias.
+Most supplemental references are to MDN Web Docs sources.
+✅ Checklist
+All folders and files follow the naming convention rules which include lowercase only, no spaces, and are semantically meaningful (check with the specific course guidelines).
+The Document Type declaration <!doctype html> is located at the top of the HTML document.
+The html element lang attribute <html lang="en-US"> is provided.
+Head
+Meta Charset Attribute is used. <meta charset="utf-8">
+Meta Viewport Element <meta name="viewport" content="width=device-width, initial-scale=1">
+The viewport of the browser is the viewable area. The content of rendered web document most likely is not the same size, therefore, scroll bars are provided by the browser. The viewport meta element considers the device width and scales the content the best it can for a given viewport. Setting the viewport to consider the device or user agent supports responsive design.
+
+width=device-width sets the width of the viewport to the width of the device.
+initial-scale=1 sets the initial zoom level when the user visits the page.
+Title Element
+Meta Description Element
+Meta Author Element
+Eternal CSS file references are used and in the proper order
+HTML
+HTML is W3C compliant. W3C validator
+Semantic Elements are used. Why? is this important
+No broken links are found on the page. W3C Link Checker
+CSS
+CSS is W3C compliant – W3C validator
+Unique ID selectors – if an ID selector is used, it is unique to a page (the planned use of class selector is preferred)
+JavaScript
+No errors nor references to unused JavaScript functions.
+No output to the console in the published version of the page.
+Other
+Images are optimized to fit the design needs of the site.
+Image aspect ratios are not changed for any images.
+Every image has an alt attribute assigned and it is relevant in describing the non-decorative image.
+A heading <h1> is required and there is only one instance on a document.
+The <h1> heading should accurately represents the main topic or purpose of the page and match very closely with the content of the document's <title> It should succinctly summarize the content and provide a clear indication of what the page is about. While <h1> headings can be styled using CSS for visual hierarchy, their primary purpose is to provide semantic meaning to the content.
+
+Headings <h1>-<h6> are used in the proper order to outline the page.
+Use heading elements (<h2> to <h6>) to create a logical hierarchy of content. Headings should be nested appropriately to reflect the structure and relationship between different sections of the page. – Heading Levels Deque University
+
+No color contrast violations at the AA level. Use the browser's development tool (DevTools) CSS Overview, or use a tool like siegemedia's Contrast Checker to check color contrast.
+Ensure that the page's weight remains under 500KB as measured by the DevTools network transfer load indicator.
+Adhere to design principles such as alignment, proximity, contrast, repetition, and usable typography.
+Maintain an appealing visual appearance across all pages, ensuring responsiveness, uniformity, and consistency.
+Guarantee the absence of spelling and grammatical errors throughout the site.
+Test all pages for responsive web design, ensuring appropriately sized text and links, with no horizontal scrolling nor dead space.
+Verify that the page functions correctly and delivers content as expected.
+Accessibility test errors and warnings are reviewed
+Do not use third-party CSS frameworks or libraries unless directed that they are allowed.))
+
+Use the browser's DevTools to check for JavaScript runtime errors in the console or click the red, error icon in the upper right corner of DevTools.
+Use DevTools CSS Overview to check your color contrast.
+Generate a DevTools Lighthouse report in the Accessibility, Best Practices, and SEO categories for both the mobile and Desktop views.
+Perform an analysis on every page of the chamber website to verify that each page loads with a data transfer size of less than 500kB when the cache is cleared.
+Audit and Submission
+Commit your local repository and push or upload your work to your GitHub Pages enabled wdd231 repository on GitHub.
+Use this ☑️ audit tool to check some your page against the standards and some requirements.
+Share your URL to your group's channel and review your group member's submissions.
+Return to Canvas and submit your GitHub Pages enabled URL.
+https://username.github.io/wdd231/chamber/discover.html
+
+W05 Project: Site Plan
+Due Jun 4 by 5:59pm Points 15 Submitting a website url Attempts 0 Allowed Attempts 3 Available until Jun 11 at 5:59pm
+Complete the Project Site PlanLinks to an external site. assignment and return here to submit your URL.
+
+Rubric
+W05 Project: Site Plan
+W05 Project: Site Plan
+Criteria	Ratings	Pts
+This criterion is linked to a Learning Outcome1. Site Name
+1 pts
+Complete
+A site name was provided and a brief reason for why was given.
+0 pts
+Incomplete
+The site name is incomplete or missing.
+1 pts
+This criterion is linked to a Learning Outcome2. Site Purpose
+2 pts
+Complete
+A site purpose lists at least one purpose which describes what services or information, etc. will be provided by the content of the site.
+0 pts
+Incomplete
+The site purpose is incomplete or missing.
+2 pts
+This criterion is linked to a Learning Outcome3. Scenarios
+2 pts
+Complete
+At least two scenario questions are provided that reflect on target audience users.
+0 pts
+Incomplete
+The scenarios are incomplete or missing.
+2 pts
+This criterion is linked to a Learning Outcome4. Color Schema
+2 pts
+Complete
+At least two colors are defined and where the colors are to be used is provided.
+1 pts
+Partial
+Where the colors are to be applied is missing.
+0 pts
+Incomplete
+The color schemas and application are incomplete or missing.
+2 pts
+This criterion is linked to a Learning Outcome5. Color Schema Use in Document
+1 pts
+Complete
+This site plan document uses the colors listed in the color schema section.
+0 pts
+Incomplete
+The selected color schema is not used in the document.
+1 pts
+This criterion is linked to a Learning Outcome6. Typography Named and Used
+2 pts
+Complete
+A least one font is selected and how it will be applied and actually used in the site plan document.
+1 pts
+Partial
+The listed font description of use or actual application in the site plan document is missing.
+0 pts
+Incomplete
+The typography section is incomplete in that how it is to be used and actual use is incomplete or missing.
+2 pts
+This criterion is linked to a Learning Outcome7. Wireframe
+2 pts
+Complete
+A home page wireframe is provided for the mobile and for a wider view.
+0 pts
+Incomplete
+The wireframe section is incomplete or missing.
+2 pts
+This criterion is linked to a Learning Outcome8. Valid HTML and CSS
+3 pts
+Complete
+Valid HTML and CSS are used to build the site plan document and the document has a proper title.
+0 pts
+Incomplete
+The document has HTML or CSS validation errors or is missing a proper title.
+3 pts
+Total Points: 15

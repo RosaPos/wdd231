@@ -1,11 +1,17 @@
 :root {
-  --navy: #13294b;
-  --blue: #2f80ed;
-  --gold: #f9c74f;
-  --light-bg: #f5f8ff;
+  --deep-purple: #21002f;
+  --dark-purple: #32004b;
+  --main-purple: #7b2cbf;
+  --bright-purple: #9d4edd;
+  --neon-magenta: #d72df2;
+  --level-gold: #ffd60a;
+  --navy: #08245c;
+  --soft-lilac: #f8f0ff;
   --white: #ffffff;
-  --text: #1f2937;
-  --border: #cbd5e1;
+  --text: #241433;
+  --muted-text: #48345f;
+  --border: #dec8f4;
+  --shadow: 0 14px 30px rgb(33 0 47 / 0.16);
 }
 
 * {
@@ -14,29 +20,100 @@
 
 body {
   margin: 0;
-  background-color: var(--light-bg);
   color: var(--text);
-  font-family: "Lato", Arial, sans-serif;
-  line-height: 1.6;
+  font-family: "Nunito", Arial, sans-serif;
+  line-height: 1.65;
+  background:
+    radial-gradient(circle at 10% 8%, rgb(215 45 242 / 0.24), transparent 24rem),
+    radial-gradient(circle at 90% 15%, rgb(255 214 10 / 0.22), transparent 20rem),
+    linear-gradient(180deg, var(--soft-lilac), var(--white));
 }
 
 header {
-  padding: 2rem 1rem;
-  background-color: var(--navy);
+  padding: 2rem 1rem 1rem;
+}
+
+.hero-card {
+  position: relative;
+  width: min(100% - 1rem, 1100px);
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  overflow: hidden;
   color: var(--white);
   text-align: center;
+  background:
+    radial-gradient(circle at 82% 28%, rgb(215 45 242 / 0.55), transparent 16rem),
+    radial-gradient(circle at 20% 15%, rgb(157 78 221 / 0.55), transparent 14rem),
+    linear-gradient(135deg, var(--deep-purple), var(--dark-purple));
+  border: 1px solid rgb(255 255 255 / 0.18);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
 }
 
-header h1 {
-  margin: 0;
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 2rem;
+.hero-card::before,
+.hero-card::after {
+  position: absolute;
+  content: "";
+  border: 6px solid var(--neon-magenta);
+  opacity: 0.65;
 }
 
-header p {
-  margin: 0.5rem 0 0;
-  color: var(--gold);
-  font-weight: 700;
+.hero-card::before {
+  width: 40px;
+  height: 40px;
+  top: 24px;
+  right: 48px;
+  border-radius: 12px;
+  transform: rotate(12deg);
+}
+
+.hero-card::after {
+  width: 34px;
+  height: 34px;
+  left: 52px;
+  bottom: 28px;
+  border-radius: 50%;
+}
+
+.logo-badge {
+  display: block;
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 1rem;
+  padding: 0.35rem;
+  object-fit: contain;
+  border: 5px solid var(--bright-purple);
+  border-radius: 50%;
+  box-shadow: 0 10px 24px rgb(0 0 0 / 0.25);
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--level-gold);
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fredoka", Arial, sans-serif;
+  line-height: 1.2;
+}
+
+h1 {
+  max-width: 780px;
+  margin: 0 auto;
+  font-size: clamp(2.2rem, 6vw, 4.5rem);
+  color: var(--white);
+}
+
+.hero-text {
+  max-width: 720px;
+  margin: 1rem auto 0;
+  color: #f9eaff;
+  font-size: 1.1rem;
 }
 
 main {
@@ -44,25 +121,47 @@ main {
   margin: 2rem auto;
 }
 
-section {
+.plan-section {
+  position: relative;
   margin-bottom: 1.5rem;
   padding: 1.5rem;
+  overflow: hidden;
   background-color: var(--white);
   border: 1px solid var(--border);
-  border-radius: 14px;
-  box-shadow: 0 4px 14px rgb(0 0 0 / 0.06);
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgb(33 0 47 / 0.08);
 }
 
-h2,
-h3 {
-  font-family: "Montserrat", Arial, sans-serif;
+.plan-section::before {
+  position: absolute;
+  content: "";
+  width: 86px;
+  height: 86px;
+  top: -38px;
+  right: -30px;
+  background-color: rgb(215 45 242 / 0.12);
+  border-radius: 50%;
+}
+
+.plan-section h2 {
+  position: relative;
+  margin-top: 0;
+  padding-bottom: 0.65rem;
+  color: var(--deep-purple);
+  font-size: 1.7rem;
+  border-bottom: 5px solid var(--level-gold);
+}
+
+.plan-section h3 {
   color: var(--navy);
 }
 
-h2 {
-  margin-top: 0;
-  padding-bottom: 0.5rem;
-  border-bottom: 4px solid var(--gold);
+p {
+  color: var(--muted-text);
+}
+
+strong {
+  color: var(--deep-purple);
 }
 
 ul {
@@ -70,7 +169,8 @@ ul {
 }
 
 li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.55rem;
+  color: var(--muted-text);
 }
 
 .color-grid {
@@ -80,9 +180,11 @@ li {
 }
 
 .color-card {
-  padding: 1rem;
-  border-radius: 12px;
-  border: 1px solid var(--border);
+  min-height: 170px;
+  padding: 1.2rem;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  box-shadow: 0 8px 18px rgb(33 0 47 / 0.12);
 }
 
 .color-card h3,
@@ -90,44 +192,78 @@ li {
   margin: 0.35rem 0;
 }
 
+.dark-purple {
+  background-color: var(--deep-purple);
+  color: var(--white);
+}
+
+.dark-purple h3,
+.dark-purple p {
+  color: var(--white);
+}
+
+.main-purple {
+  background-color: var(--main-purple);
+  color: var(--white);
+}
+
+.main-purple h3,
+.main-purple p {
+  color: var(--white);
+}
+
+.neon-magenta {
+  background-color: var(--neon-magenta);
+  color: var(--deep-purple);
+}
+
+.neon-magenta h3,
+.neon-magenta p {
+  color: var(--deep-purple);
+}
+
+.level-gold {
+  background-color: var(--level-gold);
+  color: var(--deep-purple);
+}
+
+.level-gold h3,
+.level-gold p {
+  color: var(--deep-purple);
+}
+
 .navy {
   background-color: var(--navy);
   color: var(--white);
 }
 
-.navy h3 {
-  color: var(--gold);
-}
-
-.blue {
-  background-color: var(--blue);
+.navy h3,
+.navy p {
   color: var(--white);
 }
 
-.blue h3 {
-  color: var(--white);
+.soft-bg {
+  background-color: var(--soft-lilac);
+  color: var(--deep-purple);
+  border-color: var(--border);
 }
 
-.gold {
-  background-color: var(--gold);
-  color: var(--navy);
-}
-
-.light {
-  background-color: var(--light-bg);
-  color: var(--navy);
+.soft-bg h3,
+.soft-bg p {
+  color: var(--deep-purple);
 }
 
 .type-example {
-  padding: 1rem;
+  padding: 1.2rem;
   margin-bottom: 1rem;
-  border-left: 6px solid var(--blue);
-  background-color: var(--light-bg);
-  border-radius: 10px;
+  background:
+    linear-gradient(90deg, rgb(123 44 191 / 0.14), rgb(255 214 10 / 0.18));
+  border-left: 8px solid var(--main-purple);
+  border-radius: 18px;
 }
 
 .body-font h3 {
-  font-family: "Lato", Arial, sans-serif;
+  font-family: "Nunito", Arial, sans-serif;
 }
 
 .wireframe-grid {
@@ -138,34 +274,44 @@ li {
 
 .wireframe {
   display: grid;
-  gap: 0.6rem;
+  gap: 0.7rem;
   padding: 1rem;
-  background-color: var(--light-bg);
-  border: 2px dashed var(--blue);
-  border-radius: 14px;
+  background:
+    radial-gradient(circle at 90% 10%, rgb(255 214 10 / 0.2), transparent 12rem),
+    var(--soft-lilac);
+  border: 3px dashed var(--main-purple);
+  border-radius: 22px;
 }
 
 .box {
-  min-height: 52px;
-  padding: 0.75rem;
+  min-height: 56px;
+  padding: 0.8rem;
   background-color: var(--white);
-  border: 2px solid var(--navy);
-  border-radius: 10px;
-  color: var(--navy);
-  font-weight: 700;
+  border: 2px solid var(--main-purple);
+  border-radius: 16px;
+  color: var(--deep-purple);
+  font-weight: 800;
   text-align: center;
 }
 
 .small {
-  min-height: 40px;
-  background-color: var(--navy);
+  min-height: 44px;
+  background-color: var(--deep-purple);
   color: var(--white);
 }
 
 .hero {
-  min-height: 100px;
-  background-color: var(--blue);
+  min-height: 110px;
   color: var(--white);
+  background:
+    radial-gradient(circle at 85% 25%, rgb(215 45 242 / 0.8), transparent 8rem),
+    linear-gradient(135deg, var(--deep-purple), var(--main-purple));
+}
+
+.cta {
+  background-color: var(--level-gold);
+  color: var(--deep-purple);
+  border-color: var(--level-gold);
 }
 
 .desktop-wireframe {
@@ -181,24 +327,48 @@ li {
 }
 
 .desktop-wireframe .hero {
-  min-height: 130px;
+  min-height: 140px;
+}
+
+.desktop-wireframe .benefits {
+  background-color: var(--soft-lilac);
+}
+
+.desktop-wireframe .contact {
+  background-color: var(--level-gold);
+  border-color: var(--level-gold);
 }
 
 .desktop-wireframe .footer {
-  background-color: var(--navy);
+  background-color: var(--deep-purple);
   color: var(--white);
 }
 
 footer {
-  padding: 1.5rem;
-  background-color: var(--navy);
+  padding: 2rem 1rem;
   color: var(--white);
   text-align: center;
+  background:
+    radial-gradient(circle at 20% 20%, rgb(215 45 242 / 0.42), transparent 18rem),
+    linear-gradient(135deg, var(--deep-purple), var(--dark-purple));
 }
 
-@media screen and (min-width: 700px) {
-  header h1 {
-    font-size: 2.6rem;
+footer p {
+  margin: 0;
+  color: var(--white);
+}
+
+@media screen and (min-width: 720px) {
+  header {
+    padding-top: 3rem;
+  }
+
+  .hero-card {
+    padding: 4rem 2rem;
+  }
+
+  .plan-section {
+    padding: 2rem;
   }
 
   .color-grid {
@@ -208,5 +378,11 @@ footer {
   .wireframe-grid {
     grid-template-columns: 1fr 1.4fr;
     align-items: start;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .color-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
