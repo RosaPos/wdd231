@@ -537,3 +537,97 @@ footer p {
 .spotlight-link:hover {
   color: var(--accent-color);
 }
+
+/* =========================================
+   DISCOVER PAGE: SMALL VIEWS (Mobile) 
+   ========================================= */
+
+/* Discover intro */
+
+.discover-intro {
+  max-width: 850px;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.discover-intro p {
+  max-width: 760px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#places-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 0;
+}
+
+/* Usamos un selector específico para NO afectar las tarjetas de la barra lateral */
+#places-container .card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "titulo"
+    "foto"
+    "direccion"
+    "texto"
+    "boton";
+  gap: 10px;
+}
+
+#places-container .card h2 {
+  grid-area: titulo;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #003366;
+}
+
+#places-container .card figure {
+  grid-area: foto;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#places-container .card img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+#places-container .card address {
+  grid-area: direccion;
+  font-style: italic;
+  color: #555;
+}
+
+#places-container .card p {
+  grid-area: texto;
+  margin: 0;
+  line-height: 1.4;
+}
+
+#places-container .card button {
+  grid-area: boton;
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
