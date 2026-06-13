@@ -1,6 +1,9 @@
 const programsContainer = document.getElementById("programs-container");
 const programsUrl = "data/programs.json";
 
+const faqContainer = document.getElementById("faq-container");
+const faqUrl = "data/faqs.json";
+
 const programModal = document.getElementById("programModal");
 const closeModal = document.getElementById("closeModal");
 
@@ -123,4 +126,45 @@ if (closeModal && programModal) {
     });
 }
 
+async function getFaqs() {
+    if (!faqContainer) {
+        return;
+    }
+
+    try {
+        const response = await fetch(faqUrl);
+
+        if (!response.ok) {
+            throw new Error("Could not load FAQ data.");
+        }
+
+        const faqs = await response.json();
+        displayFaqs(faqs);
+    } catch (error) {
+        faqContainer.innerHTML = `
+            <p class="error-message">
+                Sorry, the questions could not be loaded.
+            </p>
+        `;
+
+        console.error(error);
+    }
+}
+
+function displayFaqs(faqs) {
+    faqContainer.innerHTML = faqs
+        .map((faq) => {
+            return `
+                <article class="faq-card">
+                    <p class="faq-category">${faq.category}</p>
+                    <h3>${faq.question}</h3>
+                    <p>${faq.answer}</p>
+                    <p><strong>Audience:</strong> ${faq.audience}</p>
+                </article>
+            `;
+        })
+        .join("");
+}
+
 getPrograms();
+getFaqs();

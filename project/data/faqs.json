@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "category": "Enrollment",
+        "question": "Can adults enroll?",
+        "answer": "Yes. Level Up offers online English classes for adults.",
+        "audience": "Adults"
+    },
+    {
+        "id": 2,
+        "category": "Modality",
+        "question": "Are the classes online?",
+        "answer": "Yes. All classes are live online classes with teacher support.",
+        "audience": "All students"
+    },
+    {
+        "id": 3,
+        "category": "Level",
+        "question": "Can beginners start from zero?",
+        "answer": "Yes. Beginner students can start with basic vocabulary and simple grammar.",
+        "audience": "Beginners"
+    },
+    {
+        "id": 4,
+        "category": "Groups",
+        "question": "Are the groups small?",
+        "answer": "Yes. Small groups help students receive more attention and speaking time.",
+        "audience": "Children and teens"
+    },
+    {
+        "id": 5,
+        "category": "Materials",
+        "question": "Do students use digital materials?",
+        "answer": "Yes. Students use games, visual activities, and digital resources.",
+        "audience": "All students"
+    },
+    {
+        "id": 6,
+        "category": "Speaking",
+        "question": "Do students practice speaking?",
+        "answer": "Yes. Classes include guided speaking practice and real-life communication.",
+        "audience": "Teens, university students, and adults"
+    },
+    {
+        "id": 7,
+        "category": "Trial Class",
+        "question": "Can I book a free trial class?",
+        "answer": "Yes. Students can book a free trial class before enrolling.",
+        "audience": "New students"
+    }
+]
