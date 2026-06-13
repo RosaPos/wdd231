@@ -4789,3 +4789,206 @@ Incomplete
 The document has HTML or CSS validation errors or is missing a proper title.
 3 pts
 Total Points: 15
+
+
+### Individual Website Project Description
+## Overview
+This NEW individual website project is a comprehensive assessment of each student's proficiency in achieving the course learning outcomes. Students are tasked with creating a three page website using a contemporary approach with HTML, CSS, and JavaScript. The goal is to develop a dynamic and responsive website that integrates data sources, while adhering to accessibility, usability, and development standards.
+
+"The desire to create is one of the deepest yearnings of the human soul. No matter our talents, education, or backgrounds, you each have an inherent wish to create something that did not exist before. Everyone can create. You don't need money, position, or influence in order to create something of substance or beauty. Creation brings satisfaction and fulfillment. We develop ourselves and others when you take unorganized matter into our hands and mold it into something of beauty."
+Happiness, Your Heritage – Dieter F. Uchtdorf
+
+Project Requirements
+This project will be of your own subject, design, and development. You may not expand upon nor submit the chamber of commerce, learning project. You may not consult nor work with any other individual. The content and subject is driven from your own proposed topic and the site should be complete without any placeholders.
+
+This is a web course intended to help you learn how to construct dynamic and responsive websites using the core web technologies of contemporary HTML, CSS, and JavaScript. Third party templates, frameworks, and libraries are NOT allowed, like TailwindCSS, Bootstrap, Foundation, etc. Pages built from site builder software or drag-and-drop tools or that are based on existing sites are not allowed and will lead to no credit on the term project.
+
+Location and Hosting
+Your project must be stored in its own subfolder within your GitHub wdd231 repository. Something like "final" or "finalproject"
+Update the "Final" link in the nav bar on your week 1 page to point to your week 6 final project.
+
+File and Folder Naming
+All files and folders adhere to the course naming conventions.
+— lowercase, no spaces, standard, meaningful (semantic), etc.
+
+((W01 Learning Activity: Naming Conventions
+Overview
+When working on the web, there are many things that affect the operation of the files—the browser, the protocol(s), the operating system, the language(s), etc. While many of these are out of your control, there are steps you can take to help keep things consistent and manageable through standard file and folder naming conventions.
+
+Prepare
+The file and folder naming conventions will be considered 'best-practice' rules for this course. These rules should be applied to all files and folders created in your course work.
+
+Note that most organizations have defined a standard convention for naming files and folders in addition to other workflows. These conventions may vary as each organization will have their own file management guidelines and best practices. Regardless of the choice, having consistency across an organization is very important.
+
+Naming Conventions
+You will be expected to follow these naming conventions throughout the course.
+
+Use all lowercase syntax, for example, products.html
+Platforms and systems handle case sensitivity differently. Case sensitivity is an important concept to understand when managing files and folders.
+
+Do NOT use spaces in names. Use dashes instead, for example, design-document.html
+Spaces are interpreted poorly by user agents. Do not use them. The Hypertext Transfer Protocol (HTTP) ignores spaces, except in file names. In file names, it replaces a space with a symbol—"%20." This makes URL's look confusing and can also lend itself to confusion in the mind of site visitors. So avoid using spaces. Instead, if you have to create a visual space, use hyphens/dashes.
+Do NOT use special characters in names, for example, <,>, \, /, #, ?, !
+Special characters often mean specific things to computers, so just avoid using them completely in the naming of files and folders.
+Use names that are as short and as meaningful (semantic) as possible, for example, winter-scene-sm.png is better than image13-v123523brokenbranchlifeimagery w200x200.png
+Short, meaningful names save you, other developers, and site visitors from having to remember long complicated names for files and folders. When meaningful, they also help predict the purpose or nature of the file or folder contents when working with those files or folders.
+In this class, the standard folder names for the sites/subfolders are:
+styles – Folders with this name contain the CSS files.
+images – Folders with this name contain the images.
+scripts – Folders with this name contain the JavaScript files.
+Optional Resources
+Dealing With Files – MDN))
+
+HTML Standards
+Structure the pages with valid, semantic HTML markup. This includes the proper use of header, nav, main, and footer elements.
+Each page should meet the baseline development standards.
+
+((WDD Frontend Development Standards
+Overview
+Web frontend development standards ensure that web applications are built with consistency, quality, and best practices in mind. Adhering to these standards helps create a cohesive user experience, improves maintainability, and enhances performance across different browsers and devices. By following established guidelines for HTML, CSS, and JavaScript, developers can ensure that their code is clean, efficient, and accessible to all users. These standards also promote collaboration among development teams, making it easier to work together on projects and share codebases.
+
+Many of these development standards are modeled after The Front-End Checklist by David Dias.
+Most supplemental references are to MDN Web Docs sources.
+✅ Checklist
+All folders and files follow the naming convention rules which include lowercase only, no spaces, and are semantically meaningful (check with the specific course guidelines).
+The Document Type declaration <!doctype html> is located at the top of the HTML document.
+The html element lang attribute <html lang="en-US"> is provided.
+Head
+Meta Charset Attribute is used. <meta charset="utf-8">
+Meta Viewport Element <meta name="viewport" content="width=device-width, initial-scale=1">
+The viewport of the browser is the viewable area. The content of rendered web document most likely is not the same size, therefore, scroll bars are provided by the browser. The viewport meta element considers the device width and scales the content the best it can for a given viewport. Setting the viewport to consider the device or user agent supports responsive design.
+
+width=device-width sets the width of the viewport to the width of the device.
+initial-scale=1 sets the initial zoom level when the user visits the page.
+Title Element
+Meta Description Element
+Meta Author Element
+Eternal CSS file references are used and in the proper order
+HTML
+HTML is W3C compliant. W3C validator
+Semantic Elements are used. Why? is this important
+No broken links are found on the page. W3C Link Checker
+CSS
+CSS is W3C compliant – W3C validator
+Unique ID selectors – if an ID selector is used, it is unique to a page (the planned use of class selector is preferred)
+JavaScript
+No errors nor references to unused JavaScript functions.
+No output to the console in the published version of the page.
+Other
+Images are optimized to fit the design needs of the site.
+Image aspect ratios are not changed for any images.
+Every image has an alt attribute assigned and it is relevant in describing the non-decorative image.
+A heading <h1> is required and there is only one instance on a document.
+The <h1> heading should accurately represents the main topic or purpose of the page and match very closely with the content of the document's <title> It should succinctly summarize the content and provide a clear indication of what the page is about. While <h1> headings can be styled using CSS for visual hierarchy, their primary purpose is to provide semantic meaning to the content.
+
+Headings <h1>-<h6> are used in the proper order to outline the page.
+Use heading elements (<h2> to <h6>) to create a logical hierarchy of content. Headings should be nested appropriately to reflect the structure and relationship between different sections of the page. – Heading Levels Deque University
+
+No color contrast violations at the AA level. Use the browser's development tool (DevTools) CSS Overview, or use a tool like siegemedia's Contrast Checker to check color contrast.
+Ensure that the page's weight remains under 500KB as measured by the DevTools network transfer load indicator.
+Adhere to design principles such as alignment, proximity, contrast, repetition, and usable typography.
+Maintain an appealing visual appearance across all pages, ensuring responsiveness, uniformity, and consistency.
+Guarantee the absence of spelling and grammatical errors throughout the site.
+Test all pages for responsive web design, ensuring appropriately sized text and links, with no horizontal scrolling nor dead space.
+Verify that the page functions correctly and delivers content as expected.
+Accessibility test errors and warnings are reviewed
+Do not use third-party CSS frameworks or libraries unless directed that they are allowed.))
+
+
+CSS Standards
+Use valid CSS that does not contain unused and unnecessarily duplicated declarations and rules.
+Design Principles and Layout
+Design Principles: The design, in all views, must demonstrate a consistent look and feel and adhere to web design principles of proximity, alignment, repetition, contrast, and appropriate white-space.
+Responsive Navigation: Small screen links expand when a hamburger icon is clicked and larger screens display links horizontally.
+Wayfinding: Use wayfinding with the site's main navigation links.
+Responsive Layout: The layout of each page must be responsive to mobile (320px) (portrait and landscape) and larger screen views with no horizontal scrolling.
+Page Weight: Make sure each page size is below the 500kB of total data transfer from an empty cache.
+Accessibility: The layout and design must support accessibility.
+Usability: The site must be usable and supports a positive user experience.
+Content
+Page Requirement: Three (3) total pages are required. This includes the landing (home) page named "index.html".
+Purpose: The content must be cohesive and must be relevant to the purpose of the site as outlined in your website plan.
+Branding with Favicon: Integrate a favicon on each page that is consistent with the site's branding, logo, or overall design.
+Semantic HTML Titles: Use distinct and descriptive title tags to accurately reflect each page's content.
+SEO-Friendly Descriptions: Implement unique meta name="description" tags that are concise and relevant to each page, optimizing them for search engines.
+Author Attribution: Include a meta name="author" tag on each page.
+Social Sharing Optimization: Implement necessary social media metadata, such as Open Graph tags, to control how content is displayed when shared on social platforms.
+Images
+All images must be optimized for the web and use intrinsic aspect ratios.
+Use a lazy loading technique to support progressive design and to increase page performance.
+HTML Form
+Use an HTML form that meets the standards presented in the course.
+Display the form data on a form action page.
+(This form action page does not count toward your site 3 page requirement.)
+JavaScript Functionality and Components
+Your website must incorporate dynamic features and content using JavaScript.
+
+The following functionality and components are required:
+
+Data Fetching: Retrieve data from an external source or a local JSON file.
+Use the Fetch API to make asynchronous requests (demonstrated in the video).
+Incorporate `try...catch` blocks for robust error handling of asynchronous operations (demonstrated in the video).
+Handle the response appropriately (e.g., parsing JSON).
+Dynamic Content Generation:
+Dynamically generate and display at least fifteen (15) items from your data source.
+For each item, display at least four (4) distinct data properties/values.
+Local Storage: Implement local storage to persist data client-side (e.g., user preferences, application state).
+Modal Dialogs:
+Implement at least one modal dialog structure for user interaction (e.g., displaying detailed information, confirming actions).
+Ensure the modal is accessible and follows best practices for user experience.
+DOM Manipulation and Event Handling: Implement JavaScript to interact with the Document Object Model (DOM). This should include:
+Selecting elements using appropriate methods (e.g., `querySelector`, `querySelectorAll`).
+Modifying element properties, style, and/or content.
+Attaching event listeners to elements and responding appropriately to events (e.g., `click`, `submit`, `change`).
+Array Methods: Utilize at least one appropriate array method (e.g., `map`, `filter`, `reduce`, `forEach`) to process data efficiently.
+Template Literals: Employ template literals for string construction, especially when dealing with dynamic content or multi-line strings.
+ES Modules: Structure your JavaScript code using ES Modules to demonstrate proper code organization and modularity.
+There are many public and free APIs that you can use for your project.
+Check the Web Frontend Development Resources page for some examples.
+
+
+APIs
+APIs (Application Programming Interfaces) are a set of rules and protocols that allow different software applications to communicate with each other. They enable developers to access data and services from other applications and use them in their own applications.
+
+150+ FREE APIs – Dev.to
+Public APIs - APILayer
+Rapid API Collection of interesting APIs
+mocky – Mock up custom APIs
+Free APis – dev.to – APIs for your Projects
+
+Professionalism
+Proofread Carefully: Fix all spelling and grammar mistakes.
+Acknowledge Sources: If you used external content, add an "Attributions" link to your footer.
+The images and verbiage may be referenced from other sources which will need to be cited in a resource attributions page, which must be linked from the footer of the landing (home) page. This attributions page does not need to be styled.
+
+Video Demonstration and Reflection
+Create a focused, brief video that captures your screen as you demonstrate how you met certain JavaScript requirements. You do not need to talk about anything else except to demonstrate where and how you met the following requirements.
+
+Video Specifications Requirements
+What to Capture: Use your camera showing your face as you record your screen.
+Length: Record a 3-5 minute video. Focus on the required demonstrations and nothing else.
+Location: Upload your completed video to Youtube, Loom, or an equivalent service. Make sure the video is public so that the graders can view it.
+Recording Tools: Use the video capture and editing tool of your choice.
+Some video recording tools that include free options are:
+ClipChamp
+Screencastify
+Loom
+OBS Studio
+QuickTime Player (macOS)
+Link your video in the footer of each page of your site so it can be easily found by the grading team.
+Video Content Requirements
+How you used your API/Data integration and demonstrate the output.
+How you used an asynchronous functionality with a try block.
+Testing
+Use this page audit tool. Note that a complete URL is required. The audit will be used by the graders in your assessment.
+Test your site in multiple browsers and devices.
+Use the browser's DevTools to check for JavaScript runtime errors.
+Use DevTools CSS Overview to check your color contrast.
+Generate the DevTools Lighthouse report and run diagnostics for accessibility, best practices, and SEO (Search Engine Optimization) in both the mobile and desktop views.
+Be sure that your site can be opened by the graders.
+Make sure your video is available to the graders.
+Submission
+Return to Canvas and submit:
+
+Your project's GitHub Pages (github.io) enabled URL
+Insure that there is a link to the video in the site footer!

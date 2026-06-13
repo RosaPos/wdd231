@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Enroll in online English classes at Level Up English Institute for children and teenagers.">
+    <meta name="author" content="Rosa Posadas">
+
+    <meta property="og:title" content="Enroll | Level Up English Institute">
+    <meta property="og:description" content="Book a free trial class or ask about Level Up online English programs.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/level-up-logo.webp">
+    <meta property="og:url" content="https://yourusername.github.io/wdd231/project/enroll.html">
+
+    <title>Enroll | Level Up English Institute</title>
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Level Up English Institute home">
+            <img src="images/level-up-logo.webp" alt="Level Up English Institute logo" width="80" height="80">
+            <span>Level Up English Institute</span>
+        </a>
+
+        <button id="menuButton" class="menu-button" type="button" aria-label="Open navigation menu"
+            aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navigation" class="navigation">
+            <a href="index.html">Home</a>
+            <a href="programs.html">Programs</a>
+            <a href="enroll.html">Enroll</a>
+        </nav>
+
+        <a class="header-cta" href="enroll.html">Start</a>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">Enrollment</p>
+            <h1>Book your free trial class</h1>
+            <p>
+                Complete the form and we will contact you with information about schedules,
+                levels, and online English programs.
+            </p>
+        </section>
+
+        <section class="enroll-section">
+            <form id="enrollment-form" class="enrollment-form" action="thankyou.html" method="get">
+                <fieldset>
+                    <legend>Student Information</legend>
+
+                    <label for="studentName">Student name</label>
+                    <input type="text" id="studentName" name="studentName" required>
+
+                    <label for="studentAge">Student age</label>
+                    <input type="number" id="studentAge" name="studentAge" min="4" max="80" required>
+
+                    <label for="englishLevel">English level</label>
+                    <select id="englishLevel" name="englishLevel" required>
+                        <option value="">Choose one option</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="a1">A1</option>
+                        <option value="a2">A2</option>
+                        <option value="b1">B1</option>
+                        <option value="not-sure">I am not sure</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Parent or Contact Information</legend>
+
+                    <label for="parentName">Name</label>
+                    <input type="text" id="parentName" name="parentName" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">WhatsApp number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Program Interest</legend>
+
+                    <label for="programInterest">Program</label>
+                    <select id="programInterest" name="programInterest" required>
+                        <option value="">Choose one program</option>
+                        <option value="children">Children English</option>
+                        <option value="teens">Teens English</option>
+                        <option value="university">University Students English</option>
+                        <option value="adults">Adults English</option>
+                        <option value="conversation">Conversation Club</option>
+                        <option value="beginner">Beginner English</option>
+                        <option value="trial">Free Trial Class</option>
+                    </select>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"
+                        placeholder="Tell us about your schedule, goals, or questions."></textarea>
+                </fieldset>
+
+                <button class="primary-button form-button" type="submit">Send Enrollment Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Level Up English Institute</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

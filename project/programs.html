@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Explore the online English programs offered by Level Up English Institute for children, teenagers, and beginner learners.">
+    <meta name="author" content="Rosa Posadas">
+
+    <meta property="og:title" content="Level Up English Institute Programs">
+    <meta property="og:description"
+        content="Online English programs for children, teenagers, conversation practice, and beginner learners.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/level-up-logo.webp">
+    <meta property="og:url" content="https://yourusername.github.io/wdd231/project/programs.html">
+
+    <title>Programs | Level Up English Institute</title>
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/programs.js" type="module"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Level Up English Institute home">
+            <img src="images/level-up-logo.webp" alt="Level Up English Institute logo" width="80" height="80">
+            <span>Level Up English Institute</span>
+        </a>
+
+        <button id="menuButton" class="menu-button" type="button" aria-label="Open navigation menu"
+            aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navigation" class="navigation">
+            <a href="index.html">Home</a>
+            <a href="programs.html">Programs</a>
+            <a href="enroll.html">Enroll</a>
+        </nav>
+
+        <a class="header-cta" href="enroll.html">Start</a>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">Our programs</p>
+            <h1>Choose your English path</h1>
+            <p>
+                Explore online English programs for children, teenagers, university students,
+                and adults who want to learn with live practice and personalized support.
+            </p>
+        </section>
+
+        <section class="programs-section">
+            <div class="section-heading">
+                <p class="eyebrow">Learn with Level Up</p>
+                <h2>Programs for every learning goal</h2>
+            </div>
+
+            <div id="programs-container" class="programs-grid">
+            </div>
+        </section>
+
+        <dialog id="programModal" class="program-modal" aria-labelledby="modalTitle">
+            <div class="modal-content">
+                <button id="closeModal" class="close-modal" type="button" aria-label="Close program details">
+                    ✕
+                </button>
+
+                <p id="modalCategory" class="program-category"></p>
+                <h2 id="modalTitle"></h2>
+                <p id="modalDescription"></p>
+                <ul id="modalHighlights" class="modal-highlights"></ul>
+
+                <div class="modal-details">
+                    <p><strong>Level:</strong> <span id="modalLevel"></span></p>
+                    <p><strong>Format:</strong> <span id="modalFormat"></span></p>
+                    <p><strong>Age:</strong> <span id="modalAge"></span></p>
+                    <p><strong>Duration:</strong> <span id="modalDuration"></span></p>
+                </div>
+
+                <a class="primary-button" href="enroll.html">Enroll in this program</a>
+            </div>
+        </dialog>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Level Up English Institute</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

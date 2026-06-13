@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Children English",
+        "category": "Children",
+        "level": "A1",
+        "format": "Online live classes",
+        "age": "Children",
+        "duration": "7 weeks",
+        "description": "Fun English classes for children with games, visuals, songs, and guided speaking practice.",
+        "highlights": [
+            "Games and visual vocabulary",
+            "Short speaking activities",
+            "Friendly step-by-step practice"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Teens English",
+        "category": "Teens",
+        "level": "A1–A2",
+        "format": "Online live classes",
+        "age": "Teenagers",
+        "duration": "7 weeks",
+        "description": "Interactive English lessons for teenagers who want to improve vocabulary, grammar, and confidence.",
+        "highlights": [
+            "Communication practice",
+            "Grammar in context",
+            "Projects and guided activities"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "University English",
+        "category": "University",
+        "level": "A2–B1",
+        "format": "Online live classes",
+        "age": "University students",
+        "duration": "Flexible",
+        "description": "English support for university students who need confidence for school, presentations, and future work.",
+        "highlights": [
+            "Presentation practice",
+            "Academic vocabulary",
+            "Speaking confidence"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Adults English",
+        "category": "Adults",
+        "level": "A1–B1",
+        "format": "Online live classes",
+        "age": "Adults",
+        "duration": "Flexible",
+        "description": "Flexible English classes for adults who want to improve speaking, pronunciation, and real-life communication.",
+        "highlights": [
+            "Real-life conversations",
+            "Work and travel vocabulary",
+            "Personalized support"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Beginner English",
+        "category": "Beginner",
+        "level": "A1",
+        "format": "Online live classes",
+        "age": "Children, teens, and adults",
+        "duration": "7 weeks",
+        "description": "A beginner program for students who are starting English from zero and need clear step-by-step support.",
+        "highlights": [
+            "Basic vocabulary",
+            "Simple grammar",
+            "Guided practice"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Conversation Club",
+        "category": "Conversation",
+        "level": "A2–B1",
+        "format": "Online live classes",
+        "age": "Teens, university students, and adults",
+        "duration": "4 weeks",
+        "description": "A speaking-focused program where students practice real-life conversations in a friendly environment.",
+        "highlights": [
+            "Speaking fluency",
+            "Real situations",
+            "Confidence building"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "A1–B2 Learning Path",
+        "category": "Learning Path",
+        "level": "A1–B2",
+        "format": "Online live classes",
+        "age": "Children, teens, university students, and adults",
+        "duration": "6 blocks per year",
+        "description": "A structured learning path from beginner English to more confident communication.",
+        "highlights": [
+            "Organized progression",
+            "Constant evaluation",
+            "Clear goals by level"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Free Trial Class",
+        "category": "Trial Class",
+        "level": "All levels",
+        "format": "Online live class",
+        "age": "All students",
+        "duration": "1 class",
+        "description": "A free trial class where students can experience the Level Up methodology before enrolling.",
+        "highlights": [
+            "Level check",
+            "Teacher guidance",
+            "Class experience"
+        ]
+    }
+]
